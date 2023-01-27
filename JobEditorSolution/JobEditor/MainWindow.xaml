@@ -1,0 +1,1014 @@
+<CustomCtrlLib:Window x:Class="JobEditor.MainWindow"
+                       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                       xmlns:core="clr-namespace:System;assembly=mscorlib"
+                       xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                       xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                       xmlns:CustomCtrlLib="clr-namespace:CustomControlLibrary;assembly=CustomControlLibrary"
+                       xmlns:UserCtrlFileSelector="clr-namespace:UserControls.FileSelector;assembly=UserControls.FileSelector"
+                       xmlns:UserCtrlLogin="clr-namespace:UserControls.Login;assembly=UserControls.Login"
+                       xmlns:Utils="clr-namespace:Utils;assembly=Utils"
+                       xmlns:Local="clr-namespace:JobEditor"
+                       xmlns:Product="clr-namespace:ProductLib;assembly=ProductLib"
+                       xmlns:JobEditorControls="clr-namespace:JobEditor.Views"
+                       xmlns:Command="clr-namespace:JobEditor.Common"
+                       mc:Ignorable="d"
+                       StateChanged="Window_StateChanged" Closed="Window_Closed"
+                       Name="wndJobEditor" 
+                       Title="JobEditor"
+                       Stylus.IsPressAndHoldEnabled="false" Height="768" Width="1366" MaxWidth="1366" MaxHeight="768"
+                       Background="#204653" WindowStyle="None" ResizeMode="NoResize" Top="0" Left="0">
+    
+    <FrameworkElement.Resources>
+        <Utils:BoolToVisibility x:Key="BoolToVisibility"/>
+        <Local:ConverterEMeasuringTypeSelToImage x:Key="ConverterEMeasuringTypeSelToImage"/>
+        <Local:ConverterEHeightCorrTypeSelToImage x:Key="ConverterEHeightCorrTypeSelToImage"/>
+        <Utils:ConverterDoubleToString x:Key="converterDoubleToString"/>
+        <x:Array x:Key="FormatStringsDouble1" Type="{x:Type sys:String}">
+            <sys:String>f2</sys:String>
+            <sys:String>f4</sys:String>
+        </x:Array>
+        <x:Array x:Key="FormatStringsDouble2" Type="{x:Type sys:String}">
+            <sys:String>{0:0.00}</sys:String>
+            <sys:String>{0:0.0000}</sys:String>
+        </x:Array>
+        <x:Array x:Key="FormatStringsDoubleHeight_mm_inch" Type="{x:Type sys:String}">
+            <sys:String>{0:0.00}</sys:String>
+            <sys:String>{0:0.00}</sys:String>
+        </x:Array>
+        <sys:String x:Key="FormatStringDoubleHeight_number">{0:0}</sys:String>
+        <ResourceDictionary x:Key="FileSelector">
+            <SolidColorBrush x:Key="TextBoxForegroundThemeBrush" Color="Black"/>
+            <SolidColorBrush x:Key="TextBoxBackgroundThemeBrush" Color="#CCFFFFFF"/>
+            <SolidColorBrush x:Key="TextBoxSelectionBackgroundThemeBrush" Color="#CCD43E19"/>
+            <SolidColorBrush x:Key="TextBoxPointerOverBackgroundThemeBrush" Color="#AAFFFFFF"/>
+            <SolidColorBrush x:Key="TextBoxDisabledBackgroundThemeBrush" Color="#CCFFFFFF"/>
+            <SolidColorBrush x:Key="TextBoxDisabledForegroundThemeBrush" Color="Black"/>
+            <SolidColorBrush x:Key="TextBoxClearTextForegroundThemeBrush" Color="#22000000"/>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="Login">
+            <SolidColorBrush x:Key="LoginPasswordBackgroundThemeBrush" Color="#FFFFFFFF"/>
+            <SolidColorBrush x:Key="LoginPasswordBackgroundBorderBrush" Color="#FFFFFFFF"/>
+            <SolidColorBrush x:Key="LoginPasswordCarretBrush" Color="#FFFFFFFF"/>
+        </ResourceDictionary>
+    </FrameworkElement.Resources>
+    <Grid>
+    <Grid Name="MainEditor"
+          Visibility="{Binding JobEditorVisuEna, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}" >
+      <Label Name="SwipeControl" IsManipulationEnabled="true" Content="" Foreground="#00000000"
+             Background="#00000000" HorizontalAlignment="Left" Margin="372,0,0,0" VerticalAlignment="Top"
+             Width="780" Height="60"/>
+      <Label IsManipulationEnabled="true" Content="" Foreground="#00000000" Background="#00000000"
+             HorizontalAlignment="Left" Margin="372,40,0,0" VerticalAlignment="Top" Width="476" Height="60"/>
+      <Grid Name="Menu" Width="365" HorizontalAlignment="Left" Margin="7,7,0,0"/>
+            <Grid Name="Info" Width="500" Height="40" HorizontalAlignment="Right" VerticalAlignment="Top"
+            Margin="0,60,18,0">
+                <StackPanel Orientation="Horizontal" Width="500">
+                    <CustomCtrlLib:Label Width="465" Height="40" BorderThickness="1" HorizontalContentAlignment="Right"
+                                Content="{Binding ProductName}"/>
+                    <CustomCtrlLib:Label Content=":" Width="10" Height="40" BorderThickness="1" HorizontalContentAlignment="Center"/>
+                    <CustomCtrlLib:Label Height="40" BorderThickness="1" HorizontalContentAlignment="Right"
+                                Content="{Binding ProductView.ActLayerNum}"/>
+                </StackPanel>
+            </Grid>
+            <Grid Name="Editor" Margin="253,106,12,72">
+                <Grid Name="CutSequences"
+              Visibility="{Binding CutSeqVisuEna, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                    <CustomCtrlLib:ScrollViewer x:Name="scvCutSeq" HorizontalAlignment="Left" VerticalAlignment="Top" Height="595"
+                                       Margin="0,-5,0,0" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto"
+                                       PanningMode="VerticalOnly">
+                        <ItemsControl Name="CutSeqList" FontSize="22" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Auto"
+                          ScrollViewer.HorizontalScrollBarVisibility="Hidden" HorizontalAlignment="Left"
+                          ScrollViewer.PanningMode="VerticalOnly" ScrollViewer.PanningDeceleration="0.001"
+                          ItemsSource="{Binding CutSequences}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:SqRadioButton Name="btnCutSeq" Height="auto" Width="1100" Background="#15000000" GroupName="grpCutSeq"
+                                                HorizontalAlignment="Left" VerticalAlignment="Top"
+                                                Command="{Binding Path=DataContext.ChooseCutSequenceCommand, ElementName=CutSequences}"
+                                                CommandParameter="{Binding}" IsChecked="{Binding IsSelected}">
+                                        <Control.Template>
+                                            <ControlTemplate TargetType="{x:Type CustomCtrlLib:SqRadioButton}">
+                                                <Border Name="tmpBorderCutSequence" BorderThickness="1"
+                                Background="{Binding Background, ElementName=btnCutSeq}">
+                                                    <ContentPresenter/>
+                                                </Border>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="ToggleButton.IsChecked" Value="True">
+                                                        <Setter TargetName="tmpBorderCutSequence" Property="Border.Background" Value="#35000000"/>
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Control.Template>
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Height="97" Width="1010"
+                                  Margin="0,0,0,0">
+                                                <CustomCtrlLib:Label Margin="14,5,0,0" FontSize="18" Foreground="White" HorizontalAlignment="Left"
+                                              VerticalAlignment="Top" Content="{Binding Name}"/>
+                                                <CustomCtrlLib:Image Name="CutSeqImage" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="21,8,0,0"
+                                              Stretch="None" SourceFileName="{Binding Shape}" SourcePath="{Binding ShapePath}"/>
+                                            </StackPanel>
+                                            <CustomCtrlLib:AppButton x:Name="Confirm" Width="70" Height="70" HorizontalContentAlignment="Center"
+                                                VerticalContentAlignment="Center" HorizontalAlignment="Right" Margin="0,0,0,0" Visibility="Hidden"
+                                                Command="{Binding Path=DataContext.SelectCutSequenceConfirmCommand, ElementName=CutSequences}"
+                                                CommandParameter="{Binding}">
+                                                <CustomCtrlLib:Image SourceFileName="Apply.png" Width="40" Height="40"/>
+                                            </CustomCtrlLib:AppButton>
+                                        </StackPanel>
+                                    </CustomCtrlLib:SqRadioButton>
+                                    <DataTemplate.Triggers>
+                                        <Trigger SourceName="btnCutSeq" Property="ToggleButton.IsChecked" Value="True">
+                                            <Setter TargetName="Confirm" Property="UIElement.Visibility" Value="Visible"/>
+                                        </Trigger>
+                                        <DataTrigger Value="True" Binding="{Binding Path=Used}">
+                                            <Setter TargetName="Confirm" Property="UIElement.Visibility" Value="Hidden"/>
+                                            <Setter TargetName="btnCutSeq" Property="ToggleButton.IsChecked" Value="true"/>
+                                        </DataTrigger>
+                                    </DataTemplate.Triggers>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </CustomCtrlLib:ScrollViewer>
+                </Grid>
+                <Grid Name="Shapes" Margin="6,-6,0,0">
+                    <Grid Name="StepLapsPage"
+                Visibility="{Binding StepLapVisuEna, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ListBox Background="#204653" Width="1100" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                    ItemsSource="{Binding ProductView.SelectedLayerView.ShapeViews}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Horizontal"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <JobEditorControls:StepLapsUserControl/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type CustomCtrlLib:ListBoxItem}">
+                                    <Setter Property="UIElement.Focusable" Value="false"/>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ListBox>
+                        <Grid Name="StepLapsDefault" Height="146" Width="1098"
+                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}" HorizontalAlignment="Left"
+                  VerticalAlignment="Bottom">
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Left"
+                          Background="{DynamicResource BaseBackgroundThemeBrush}" Margin="-1,0,1,0">
+                                <StackPanel Name="NumberOfSteps" Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                            Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                        <Grid>
+                                            <CustomCtrlLib:Image SourceFileName="NumberOfSteps.png" Width="40" Height="40"/>
+                                        </Grid>
+                                    </CustomCtrlLib:AppButton>
+                                    <StackPanel Orientation="Horizontal"
+                              Visibility="{Binding EditEnaNumberOfStep, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                                        <CustomCtrlLib:SqRadioButton GroupName="group10" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Foreground="White"
+                                                  Content="{Binding DefaultPar.StepLapsNumberOfSteps_1}"
+                                                  IsChecked="{Binding RBPar.StepLapsNumberOfSteps_1}" Command="{Binding NumberOfStepsParCommand}"
+                                                  CommandParameter="{Binding DefaultPar.StepLapsNumberOfSteps_1}"/>
+                                        <CustomCtrlLib:SqRadioButton GroupName="group10" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  Content="{Binding DefaultPar.StepLapsNumberOfSteps_2}"
+                                                  IsChecked="{Binding RBPar.StepLapsNumberOfSteps_2}" Command="{Binding NumberOfStepsParCommand}"
+                                                  CommandParameter="{Binding DefaultPar.StepLapsNumberOfSteps_2}"/>
+                                        <CustomCtrlLib:SqRadioButton GroupName="group10" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  Content="{Binding DefaultPar.StepLapsNumberOfSteps_3}"
+                                                  IsChecked="{Binding RBPar.StepLapsNumberOfSteps_3}" Command="{Binding NumberOfStepsParCommand}"
+                                                  CommandParameter="{Binding DefaultPar.StepLapsNumberOfSteps_3}"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal"
+                              Visibility="{Binding EditEnaNumberOfStep, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Text="{Binding DefaultPar.StepLapsNumberOfSteps_1, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, StringFormat='    {0}'}">
+                                        </CustomCtrlLib:TextBox>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Text="{Binding DefaultPar.StepLapsNumberOfSteps_2, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, StringFormat='    {0}'}">
+                                        </CustomCtrlLib:TextBox>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Text="{Binding DefaultPar.StepLapsNumberOfSteps_3, Mode=TwoWay, ValidatesOnNotifyDataErrors=false, StringFormat='    {0}'}">
+                                        </CustomCtrlLib:TextBox>
+                                    </StackPanel>
+                                    <CustomCtrlLib:AppButton Name="EditButtonNumberOfStep" Width="60" Height="48" BorderThickness="0" Margin="1,0,0,0"
+                                            Background="{Binding EditButtonBrushNumberOfStep}"
+                                            Command="{Binding EditNumberOfStepDefParCommand}">
+                                        <CustomCtrlLib:Image SourceFileName="Edit.png" Width="40" Height="40"/>
+                                    </CustomCtrlLib:AppButton>
+                                    <CustomCtrlLib:SqRadioButton GroupName="group10" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                Visibility="{Binding EditEnaNumberOfStep, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}"
+                                                Content="{Binding DPar.StepLapNumberSteps}" IsChecked="{Binding RBPar.StepLapsNumberOfSteps_4}"
+                                                Command="{Binding NumberOfStepsParCommand}" CommandParameter="{Binding DPar.StepLapNumberSteps}"/>
+                                    <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                          InputScope="Number"
+                                          Visibility="{Binding EditEnaNumberOfStep, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"
+                                          Text="{Binding DPar.StepLapNumberSteps, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, StringFormat='    {0}'}">
+                                    </CustomCtrlLib:TextBox>
+                                    <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                                <StackPanel Name="NumberOfSame" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,1,0,0">
+                                    <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                            Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                        <Grid>
+                                            <CustomCtrlLib:Image SourceFileName="NumberOfSame.png" Width="40" Height="40"/>
+                                        </Grid>
+                                    </CustomCtrlLib:AppButton>
+                                    <StackPanel Orientation="Horizontal"
+                              Visibility="{Binding EditEnaNumberOfSame, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                                        <CustomCtrlLib:SqRadioButton GroupName="group20" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  Content="{Binding DefaultPar.StepLapsNumberOfSame_1}"
+                                                  IsChecked="{Binding RBPar.StepLapsNumberOfSame_1}" Command="{Binding NumberOfSameParCommand}"
+                                                  CommandParameter="{Binding DefaultPar.StepLapsNumberOfSame_1}"/>
+                                        <CustomCtrlLib:SqRadioButton GroupName="group20" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  Content="{Binding DefaultPar.StepLapsNumberOfSame_2}"
+                                                  IsChecked="{Binding RBPar.StepLapsNumberOfSame_2}" Command="{Binding NumberOfSameParCommand}"
+                                                  CommandParameter="{Binding DefaultPar.StepLapsNumberOfSame_2}"/>
+                                        <CustomCtrlLib:SqRadioButton GroupName="group20" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  Content="{Binding DefaultPar.StepLapsNumberOfSame_3}"
+                                                  IsChecked="{Binding RBPar.StepLapsNumberOfSame_3}" Command="{Binding NumberOfSameParCommand}"
+                                                  CommandParameter="{Binding DefaultPar.StepLapsNumberOfSame_3}"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal"
+                              Visibility="{Binding EditEnaNumberOfSame, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Text="{Binding DefaultPar.StepLapsNumberOfSame_1, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, StringFormat='    {0}'}">
+                                        </CustomCtrlLib:TextBox>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Text="{Binding DefaultPar.StepLapsNumberOfSame_2, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, StringFormat='    {0}'}">
+                                        </CustomCtrlLib:TextBox>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Text="{Binding DefaultPar.StepLapsNumberOfSame_3, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, StringFormat='    {0}'}">
+                                        </CustomCtrlLib:TextBox>
+                                    </StackPanel>
+                                    <CustomCtrlLib:AppButton Name="EditButtonNumberOfSame" Width="60" Height="48" BorderThickness="0" Margin="1,0,0,0"
+                                            BorderBrush="{StaticResource BaseBackgroundThemeBrush}"
+                                            Background="{Binding EditButtonBrushNumberOfSame}"
+                                            Command="{Binding EditNumberOfSameDefParCommand}">
+                                        <CustomCtrlLib:Image SourceFileName="Edit.png" Width="40" Height="40"/>
+                                    </CustomCtrlLib:AppButton>
+                                    <CustomCtrlLib:SqRadioButton GroupName="group20" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                Visibility="{Binding EditEnaNumberOfSame, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}"
+                                                Content="{Binding DPar.StepLapNumberSame}" IsChecked="{Binding RBPar.StepLapsNumberOfSame_4}"
+                                                Command="{Binding NumberOfSameParCommand}" CommandParameter="{Binding DPar.StepLapNumberSame}"/>
+                                    <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                          InputScope="Number"
+                                          Visibility="{Binding EditEnaNumberOfSame, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"
+                                          Text="{Binding DPar.StepLapNumberSame, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, StringFormat='    {0}'}">
+                                    </CustomCtrlLib:TextBox>
+                                    <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                                <StackPanel Name="StapLapValue" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top"
+                            Margin="0,1,0,0">
+                                    <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                            Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                        <Grid>
+                                            <CustomCtrlLib:Image SourceFileName="StepValue.png" Width="40" Height="40"/>
+                                        </Grid>
+                                    </CustomCtrlLib:AppButton>
+                                    <StackPanel Orientation="Horizontal"
+                              Visibility="{Binding EditEnaStepLapValue, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                                        <CustomCtrlLib:SqRadioButton GroupName="group30" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  Content="{Binding DefaultPar.StepLapsValue_1, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                  IsChecked="{Binding RBPar.StepLapsValue_1}" Command="{Binding StepLapValueParCommand}"
+                                                  CommandParameter="{Binding DefaultPar.StepLapsValue_1}"/>
+                                        <CustomCtrlLib:SqRadioButton GroupName="group30" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  Content="{Binding DefaultPar.StepLapsValue_2, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                  IsChecked="{Binding RBPar.StepLapsValue_2}" Command="{Binding StepLapValueParCommand}"
+                                                  CommandParameter="{Binding DefaultPar.StepLapsValue_2}"/>
+                                        <CustomCtrlLib:SqRadioButton GroupName="group30" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  Content="{Binding DefaultPar.StepLapsValue_3, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                  IsChecked="{Binding RBPar.StepLapsValue_3}" Command="{Binding StepLapValueParCommand}"
+                                                  CommandParameter="{Binding DefaultPar.StepLapsValue_3}"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal"
+                              Visibility="{Binding EditEnaStepLapValue, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Text="{Binding DefaultPar.StepLapsValue_1, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                        </CustomCtrlLib:TextBox>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Text="{Binding DefaultPar.StepLapsValue_2, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                        </CustomCtrlLib:TextBox>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Text="{Binding DefaultPar.StepLapsValue_3, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                        </CustomCtrlLib:TextBox>
+                                    </StackPanel>
+                                    <CustomCtrlLib:AppButton Name="EditButtonStepLapValue" Width="60" Height="48" BorderThickness="0" Margin="1,0,0,0"
+                                            BorderBrush="{StaticResource BaseBackgroundThemeBrush}"
+                                            Background="{Binding EditButtonBrushStepLapValue}"
+                                            Command="{Binding EditStepLapValueDefParCommand}">
+                                        <CustomCtrlLib:Image SourceFileName="Edit.png" Width="40" Height="40"/>
+                                    </CustomCtrlLib:AppButton>
+                                    <CustomCtrlLib:SqRadioButton GroupName="group30" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                Visibility="{Binding EditEnaStepLapValue, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}"
+                                                Content="{Binding DPar.StepLapStepValue, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                IsChecked="{Binding RBPar.StepLapsValue_4}" Command="{Binding StepLapValueParCommand}"
+                                                CommandParameter="{Binding DPar.StepLapStepValue}"/>
+                                    <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                          InputScope="Number"
+                                          Visibility="{Binding EditEnaStepLapValue, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"
+                                          Text="{Binding DPar.StepLapStepValue, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                    </CustomCtrlLib:TextBox>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                    <Grid Name="TipCutsPage"
+                Visibility="{Binding TipCutVisuEna, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ListBox Background="#204653" Width="1100" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                    ItemsSource="{Binding ProductView.SelectedLayerView.ShapeViews}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Horizontal"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <JobEditorControls:TipCutsUserControl/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type CustomCtrlLib:ListBoxItem}">
+                                    <Setter Property="UIElement.Focusable" Value="false"/>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ListBox>
+                        <Grid Name="TipCutsDefault" Height="146" Width="1098"
+                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}" HorizontalAlignment="Left"
+                  VerticalAlignment="Bottom">
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <StackPanel Name="TipCutsHeight" Orientation="Horizontal" HorizontalAlignment="Left">
+                                        <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                              Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                            <Grid>
+                                                <CustomCtrlLib:Image SourceFileName="TipCutHeight.png" Width="40" Height="40"/>
+                                            </Grid>
+                                        </CustomCtrlLib:AppButton>
+                                        <StackPanel Orientation="Horizontal"
+                                Visibility="{Binding EditEnaTipCutHeight, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                                            <CustomCtrlLib:SqRadioButton GroupName="group55" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                    Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Foreground="White"
+                                                    Content="{Binding DefaultPar.TipCutsHeight_1, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                    IsChecked="{Binding RBPar.TipCutsHeight_1}" Command="{Binding TipCutHeightParCommand}"
+                                                    CommandParameter="{Binding DefaultPar.TipCutsHeight_1}"/>
+                                            <CustomCtrlLib:SqRadioButton GroupName="group55" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                    Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                    Content="{Binding DefaultPar.TipCutsHeight_2, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                    IsChecked="{Binding RBPar.TipCutsHeight_2}" Command="{Binding TipCutHeightParCommand}"
+                                                    CommandParameter="{Binding DefaultPar.TipCutsHeight_2}"/>
+                                            <CustomCtrlLib:SqRadioButton GroupName="group55" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                    Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                    Content="{Binding DefaultPar.TipCutsHeight_3, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                    IsChecked="{Binding RBPar.TipCutsHeight_3}" Command="{Binding TipCutHeightParCommand}"
+                                                    CommandParameter="{Binding DefaultPar.TipCutsHeight_3}"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                Visibility="{Binding EditEnaTipCutHeight, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                                            <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                              InputScope="Number"
+                                              Text="{Binding DefaultPar.TipCutsHeight_1, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                            </CustomCtrlLib:TextBox>
+                                            <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                              InputScope="Number"
+                                              Text="{Binding DefaultPar.TipCutsHeight_2, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                            </CustomCtrlLib:TextBox>
+                                            <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                              InputScope="Number"
+                                              Text="{Binding DefaultPar.TipCutsHeight_3, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                            </CustomCtrlLib:TextBox>
+                                        </StackPanel>
+                                        <CustomCtrlLib:AppButton Name="EditButtonTipCutsHeight" Width="60" Height="48" BorderThickness="0" Margin="1,0,0,0"
+                                              Background="{Binding EditButtonBrushTipCutHeight}"
+                                              Command="{Binding EditTipCutHeightDefParCommand}">
+                                            <CustomCtrlLib:Image SourceFileName="Edit.png" Width="40" Height="40"/>
+                                        </CustomCtrlLib:AppButton>
+                                        <CustomCtrlLib:SqRadioButton GroupName="group55" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  Visibility="{Binding EditEnaTipCutHeight, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}"
+                                                  Content="{Binding DPar.TipCutHeight, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                  IsChecked="{Binding RBPar.TipCutsHeight_4}" Command="{Binding TipCutHeightParCommand}"
+                                                  CommandParameter="{Binding DPar.TipCutHeight}"/>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Visibility="{Binding EditEnaTipCutHeight, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"
+                                            Text="{Binding DPar.TipCutHeight, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                        </CustomCtrlLib:TextBox>
+                                        <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <StackPanel Name="TipCutsOverCut" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top"
+                              Margin="0,1,0,0">
+                                        <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                              Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                            <Grid>
+                                                <CustomCtrlLib:Image SourceFileName="OverCut.png" Width="40" Height="40"/>
+                                            </Grid>
+                                        </CustomCtrlLib:AppButton>
+                                        <StackPanel Orientation="Horizontal"
+                                Visibility="{Binding EditEnaTipCutOverCut, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                                            <CustomCtrlLib:SqRadioButton GroupName="group56" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                    Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                    Content="{Binding DefaultPar.TipCutsOverCut_1, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                    IsChecked="{Binding RBPar.TipCutsOverCut_1}" Command="{Binding TipCutOverCutParCommand}"
+                                                    CommandParameter="{Binding DefaultPar.TipCutsOverCut_1}"/>
+                                            <CustomCtrlLib:SqRadioButton GroupName="group56" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                    Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                    Content="{Binding DefaultPar.TipCutsOverCut_2, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                    IsChecked="{Binding RBPar.TipCutsOverCut_2}" Command="{Binding TipCutOverCutParCommand}"
+                                                    CommandParameter="{Binding DefaultPar.TipCutsOverCut_2}"/>
+                                            <CustomCtrlLib:SqRadioButton GroupName="group56" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                    Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                    Content="{Binding DefaultPar.TipCutsOverCut_3, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                    IsChecked="{Binding RBPar.TipCutsOverCut_3}" Command="{Binding TipCutOverCutParCommand}"
+                                                    CommandParameter="{Binding DefaultPar.TipCutsOverCut_3}"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                Visibility="{Binding EditEnaTipCutOverCut, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                                            <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                              InputScope="Number"
+                                              Text="{Binding DefaultPar.TipCutsOverCut_1, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                            </CustomCtrlLib:TextBox>
+                                            <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                              InputScope="Number"
+                                              Text="{Binding DefaultPar.TipCutsOverCut_2, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                            </CustomCtrlLib:TextBox>
+                                            <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                              InputScope="Number"
+                                              Text="{Binding DefaultPar.TipCutsOverCut_3, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                            </CustomCtrlLib:TextBox>
+                                        </StackPanel>
+                                        <CustomCtrlLib:AppButton Name="EditButtonTipCutsOverCut" Width="60" Height="48" BorderThickness="0" Margin="1,0,0,0"
+                                              BorderBrush="{StaticResource BaseBackgroundThemeBrush}"
+                                              Background="{Binding EditButtonBrushTipCutOverCut}"
+                                              Command="{Binding EditTipCutOverCutDefParCommand}">
+                                            <CustomCtrlLib:Image SourceFileName="Edit.png" Width="40" Height="40"/>
+                                        </CustomCtrlLib:AppButton>
+                                        <CustomCtrlLib:SqRadioButton GroupName="group56" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  Visibility="{Binding EditEnaTipCutOverCut, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}"
+                                                  Content="{Binding DPar.TipCutOverCut, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                  IsChecked="{Binding RBPar.TipCutsOverCut_4}" Command="{Binding TipCutOverCutParCommand}"
+                                                  CommandParameter="{Binding DPar.TipCutOverCut}"/>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Visibility="{Binding EditEnaTipCutOverCut, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"
+                                            Text="{Binding DPar.TipCutOverCut, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                        </CustomCtrlLib:TextBox>
+                                        <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                    </StackPanel>
+                                    <Grid Height="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                                <StackPanel Name="TipCutDoubleCut" Orientation="Horizontal" HorizontalAlignment="Left"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                            Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                        <Grid>
+                                            <CustomCtrlLib:Image SourceFileName="DoubleCut.png" Width="40" Height="40"/>
+                                        </Grid>
+                                    </CustomCtrlLib:AppButton>
+                                    <StackPanel Orientation="Horizontal" Margin="1,0,0,0">
+                                        <CustomCtrlLib:SqRadioButton Content="ON" GroupName="group552" Width="67" Height="48" Margin="0,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}" CommandParameter="ON"
+                                                  IsChecked="{Binding RBPar.TipCutsDoubleCut_1}" Command="{Binding TipCutsDoubleCutParCommand}"/>
+                                        <CustomCtrlLib:SqRadioButton Content="OFF" GroupName="group552" Width="67" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}" CommandParameter="OFF"
+                                                  IsChecked="{Binding RBPar.TipCutsDoubleCut_2}" Command="{Binding TipCutsDoubleCutParCommand}"/>
+                                        <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                    <Grid Name="HolesPage"
+                Visibility="{Binding HolesVisuEna, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ListBox Background="#204653" Width="1100" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                    ItemsSource="{Binding ProductView.SelectedLayerView.ShapeViews}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Horizontal"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <JobEditorControls:HolesUserControl/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type CustomCtrlLib:ListBoxItem}">
+                                    <Setter Property="UIElement.Focusable" Value="false"/>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ListBox>
+                        <Grid Name="HolesDefault" Height="146" Width="1098"
+                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}" HorizontalAlignment="Left"
+                  VerticalAlignment="Bottom">
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                <StackPanel Name="HolesYOffsetValue" Orientation="Horizontal" HorizontalAlignment="Left"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                            Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                        <Grid>
+                                            <CustomCtrlLib:Image SourceFileName="HoleOffset.png" Width="40" Height="40"/>
+                                        </Grid>
+                                    </CustomCtrlLib:AppButton>
+                                    <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                          Background="{StaticResource Dark1BaseBackgroundThemeBrush}" InputScope="Number"
+                                          Text="{Binding ProductView.SelectedLayerView.HolesDefaultView.Offset, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                    </CustomCtrlLib:TextBox>
+                                    <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                                <Grid Height="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                    <Grid Name="SlotsPage"
+                Visibility="{Binding SlotsVisuEna, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ListBox Background="#204653" Width="1100" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                    ItemsSource="{Binding ProductView.SelectedLayerView.ShapeViews}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Horizontal"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <JobEditorControls:SlotsUserControl/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type CustomCtrlLib:ListBoxItem}">
+                                    <Setter Property="UIElement.Focusable" Value="false"/>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ListBox>
+                        <Grid Name="SlotsDefault" Height="146" Width="1098"
+                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}" HorizontalAlignment="Left"
+                  VerticalAlignment="Bottom">
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                <StackPanel Name="SlotsYDistanceValue" Orientation="Horizontal" HorizontalAlignment="Left"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                            Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                        <Grid>
+                                            <CustomCtrlLib:Image SourceFileName="SlotY2.png" Width="40" Height="40"/>
+                                        </Grid>
+                                    </CustomCtrlLib:AppButton>
+                                    <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                          Background="{StaticResource Dark1BaseBackgroundThemeBrush}" InputScope="Number"
+                                          Text="{Binding ProductView.SelectedLayerView.SlotsDefaultView.DistanceY, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                    </CustomCtrlLib:TextBox>
+                                    <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                                <Grid Height="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                    <Grid Name="CentersPage"
+                Visibility="{Binding CentersVisuEna, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ListBox Background="#204653" Width="1100" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                    ItemsSource="{Binding ProductView.SelectedLayerView.ShapeViews}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Horizontal"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <JobEditorControls:CentersUserControl/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type CustomCtrlLib:ListBoxItem}">
+                                    <Setter Property="UIElement.Focusable" Value="false"/>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ListBox>
+                        <Grid Name="CentersDefault" Height="146" Width="1098"
+                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}" HorizontalAlignment="Left"
+                  VerticalAlignment="Bottom">
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                <StackPanel Name="CentersVOffset" Orientation="Horizontal" HorizontalAlignment="Left"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                            Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                        <Grid>
+                                            <CustomCtrlLib:Image SourceFileName="VOffset.png" Width="40" Height="40"/>
+                                        </Grid>
+                                    </CustomCtrlLib:AppButton>
+                                    <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                          Background="{StaticResource Dark1BaseBackgroundThemeBrush}" InputScope="Number"
+                                          Text="{Binding ProductView.SelectedLayerView.CentersDefaultView.VOffset, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                    </CustomCtrlLib:TextBox>
+                                    <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <StackPanel Name="CentersOverCut" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top"
+                              Margin="0,1,0,0">
+                                        <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                              Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                            <Grid>
+                                                <CustomCtrlLib:Image SourceFileName="OverCut.png" Width="40" Height="40"/>
+                                            </Grid>
+                                        </CustomCtrlLib:AppButton>
+                                        <StackPanel Orientation="Horizontal"
+                                Visibility="{Binding EditEnaCentersOverCut, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                                            <CustomCtrlLib:SqRadioButton GroupName="group12" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                    Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                    Content="{Binding DefaultPar.CentersOverCut_1, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                    IsChecked="{Binding RBPar.CentersOverCut_1}" Command="{Binding CentersOverCutParCommand}"
+                                                    CommandParameter="{Binding DefaultPar.CentersOverCut_1}"/>
+                                            <CustomCtrlLib:SqRadioButton GroupName="group12" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                    Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                    Content="{Binding DefaultPar.CentersOverCut_2, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                    IsChecked="{Binding RBPar.CentersOverCut_2}" Command="{Binding CentersOverCutParCommand}"
+                                                    CommandParameter="{Binding DefaultPar.CentersOverCut_2}"/>
+                                            <CustomCtrlLib:SqRadioButton GroupName="group12" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                    Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                    Content="{Binding DefaultPar.CentersOverCut_3, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                    IsChecked="{Binding RBPar.CentersOverCut_3}" Command="{Binding CentersOverCutParCommand}"
+                                                    CommandParameter="{Binding DefaultPar.CentersOverCut_3}"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                Visibility="{Binding EditEnaCentersOverCut, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                                            <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                              InputScope="Number"
+                                              Text="{Binding DefaultPar.CentersOverCut_1, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                            </CustomCtrlLib:TextBox>
+                                            <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                              InputScope="Number"
+                                              Text="{Binding DefaultPar.CentersOverCut_2, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                            </CustomCtrlLib:TextBox>
+                                            <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                              InputScope="Number"
+                                              Text="{Binding DefaultPar.CentersOverCut_3, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                            </CustomCtrlLib:TextBox>
+                                        </StackPanel>
+                                        <CustomCtrlLib:AppButton Name="EditButtonCentersOverCut" Width="60" Height="48" BorderThickness="0" Margin="1,0,0,0"
+                                              BorderBrush="{StaticResource BaseBackgroundThemeBrush}"
+                                              Background="{Binding EditButtonBrushCentersOverCut}"
+                                              Command="{Binding EditCentersOverCutDefParCommand}">
+                                            <CustomCtrlLib:Image SourceFileName="Edit.png" Width="40" Height="40"/>
+                                        </CustomCtrlLib:AppButton>
+                                        <CustomCtrlLib:SqRadioButton GroupName="group12" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  Visibility="{Binding EditEnaCentersOverCut, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}"
+                                                  Content="{Binding DPar.CentersOverCut, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                  IsChecked="{Binding RBPar.CentersOverCut_4}" Command="{Binding CentersOverCutParCommand}"
+                                                  CommandParameter="{Binding DPar.CentersOverCut}"/>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Visibility="{Binding EditEnaCentersOverCut, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"
+                                            Text="{Binding DPar.CentersOverCut, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                        </CustomCtrlLib:TextBox>
+                                        <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                    </StackPanel>
+                                    <Grid Height="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                                <StackPanel Name="CentersDoubleCut" Orientation="Horizontal" HorizontalAlignment="Left"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                            Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                        <Grid>
+                                            <CustomCtrlLib:Image SourceFileName="DoubleCut.png" Width="40" Height="40"/>
+                                        </Grid>
+                                    </CustomCtrlLib:AppButton>
+                                    <StackPanel Orientation="Horizontal" Margin="1,0,0,0">
+                                        <CustomCtrlLib:SqRadioButton Content="ON" GroupName="group32" Width="67" Height="48" Margin="0,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}" CommandParameter="ON"
+                                                  IsChecked="{Binding RBPar.CentersDoubleCut_1}" Command="{Binding CentersDoubleCutParCommand}"/>
+                                        <CustomCtrlLib:SqRadioButton Content="OFF" GroupName="group32" Width="67" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}" CommandParameter="OFF"
+                                                  IsChecked="{Binding RBPar.CentersDoubleCut_2}" Command="{Binding CentersDoubleCutParCommand}"/>
+                                        <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                    <Grid Name="LayersPage"
+                Visibility="{Binding LayersVisuEna, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <StackPanel Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Height="146" Width="1095"
+                        HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <StackPanel Name="LayerDefRow1" Orientation="Vertical" Height="49" HorizontalAlignment="Left"
+                          VerticalAlignment="Top" Background="{StaticResource BaseBackgroundThemeBrush}">
+                                <StackPanel Name="NumberOfLayers" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <CustomCtrlLib:AppButton HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="48" BorderThickness="0"
+                                            Margin="0,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                        <Grid>
+                                            <CustomCtrlLib:Image SourceFileName="NumberOfLayers.png" Width="40" Height="40"/>
+                                        </Grid>
+                                    </CustomCtrlLib:AppButton>
+                                    <CustomCtrlLib:TextBox Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Width="149" Height="48"
+                                          Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center" InputScope="Number"
+                                          Text="{Binding DPar.NumberLayers, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, StringFormat='    {0}'}">
+                                    </CustomCtrlLib:TextBox>
+                                    <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Name="LayerDefRow2" Margin="0,-1,0,0" Orientation="Vertical" Height="50" HorizontalAlignment="Left"
+                          VerticalAlignment="Top" Background="{StaticResource BaseBackgroundThemeBrush}">
+                                <StackPanel Name="HeightRefType" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top"
+                            Margin="0,1,0,0" Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <CustomCtrlLib:AppButton HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="48" BorderThickness="0"
+                                            Margin="0,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                        <Grid>
+                                            <CustomCtrlLib:Image SourceFileName="LayerHeightUnit.png" Width="40" Height="40"/>
+                                        </Grid>
+                                    </CustomCtrlLib:AppButton>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                        <CustomCtrlLib:SqRadioButton x:Name="LayerHeightUnitMm" GroupName="group82" Width="74" Height="48" Margin="1,0,0,0"
+                                                  BorderThickness="0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  CommandParameter="mm" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                                  Content="{Binding UnitInchMMText}" IsChecked="{Binding RBPar.HeightRefType_1}"
+                                                  Command="{Binding HeightRefTypeParCommand}"/>
+                                        <CustomCtrlLib:SqRadioButton x:Name="LayerHeightUnitNmbr" Content="#" GroupName="group82" Width="74" Height="48"
+                                                  Margin="1,0,0,0" BorderThickness="0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  CommandParameter="Number" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                                  IsChecked="{Binding RBPar.HeightRefType_2}" Command="{Binding HeightRefTypeParCommand}"/>
+                                        <CustomCtrlLib:SqRadioButton x:Name="LayerHeightAbs" GroupName="group83" Width="109" Height="48" Margin="1,0,0,0"
+                                                  BorderThickness="0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  CommandParameter="Absolute" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                                  IsChecked="{Binding RBPar.HeightMeasType_1}" Command="{Binding HeightMeasTypeParCommand}">
+                                            <Grid>
+                                                <CustomCtrlLib:Image Width="60" Height="40"
+                                              SourceFileName="{Binding ElementName=LayerHeightAbs, Path=IsChecked, Converter={StaticResource ConverterEMeasuringTypeSelToImage}, ConverterParameter=true}"/>
+                                            </Grid>
+                                        </CustomCtrlLib:SqRadioButton>
+                                        <CustomCtrlLib:SqRadioButton x:Name="LayerHeightRel" GroupName="group83" Width="109" Height="48" Margin="1,0,0,0"
+                                                  BorderThickness="0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  CommandParameter="Relative" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                                  IsChecked="{Binding RBPar.HeightMeasType_2}" Command="{Binding HeightMeasTypeParCommand}">
+                                            <Grid>
+                                                <CustomCtrlLib:Image Width="60" Height="40"
+                                              SourceFileName="{Binding ElementName=LayerHeightRel, Path=IsChecked, Converter={StaticResource ConverterEMeasuringTypeSelToImage}, ConverterParameter=false}"/>
+                                            </Grid>
+                                        </CustomCtrlLib:SqRadioButton>
+                                    </StackPanel>
+                                    <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel>
+                        <Grid Name="LayersDefault" Height="443" Width="1098"
+                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}" HorizontalAlignment="Left"
+                  VerticalAlignment="Bottom">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <StackPanel Name="SheetThickness" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top"
+                              Margin="0,1,0,0">
+                                        <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                              Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                            <Grid>
+                                                <CustomCtrlLib:Image SourceFileName="SheetThickness.png" Width="40" Height="40"/>
+                                            </Grid>
+                                        </CustomCtrlLib:AppButton>
+                                        <StackPanel Orientation="Horizontal"
+                                Visibility="{Binding EditEnaLayerSheetThickness, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                                            <CustomCtrlLib:SqRadioButton GroupName="group84" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                    Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                    Content="{Binding DefaultPar.MaterialThickness_1, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                    IsChecked="{Binding RBPar.LayersMaterialThickness_1}"
+                                                    Command="{Binding MaterialThicknessParCommand}"
+                                                    CommandParameter="{Binding DefaultPar.MaterialThickness_1}"/>
+                                            <CustomCtrlLib:SqRadioButton GroupName="group84" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                    Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                    Content="{Binding DefaultPar.MaterialThickness_2, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                    IsChecked="{Binding RBPar.LayersMaterialThickness_2}"
+                                                    Command="{Binding MaterialThicknessParCommand}"
+                                                    CommandParameter="{Binding DefaultPar.MaterialThickness_2}"/>
+                                            <CustomCtrlLib:SqRadioButton GroupName="group84" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                    Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                    Content="{Binding DefaultPar.MaterialThickness_3, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                    IsChecked="{Binding RBPar.LayersMaterialThickness_3}"
+                                                    Command="{Binding MaterialThicknessParCommand}"
+                                                    CommandParameter="{Binding DefaultPar.MaterialThickness_3}"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                Visibility="{Binding EditEnaLayerSheetThickness, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                                            <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                              InputScope="Number"
+                                              Text="{Binding DefaultPar.MaterialThickness_1, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                            </CustomCtrlLib:TextBox>
+                                            <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                              InputScope="Number"
+                                              Text="{Binding DefaultPar.MaterialThickness_2, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                            </CustomCtrlLib:TextBox>
+                                            <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                              InputScope="Number"
+                                              Text="{Binding DefaultPar.MaterialThickness_3, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                            </CustomCtrlLib:TextBox>
+                                        </StackPanel>
+                                        <CustomCtrlLib:AppButton Name="EditButtonLayerThickness" Width="60" Height="48" BorderThickness="0" Margin="1,0,0,0"
+                                              BorderBrush="{StaticResource BaseBackgroundThemeBrush}"
+                                              Background="{Binding EditButtonBrushLayersMaterialThickness}"
+                                              Command="{Binding EditLayersMaterialThicknessDefParCommand}">
+                                            <CustomCtrlLib:Image SourceFileName="Edit.png" Width="40" Height="40"/>
+                                        </CustomCtrlLib:AppButton>
+                                        <CustomCtrlLib:SqRadioButton GroupName="group84" Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0"
+                                                  Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  Visibility="{Binding EditEnaLayerSheetThickness, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}"
+                                                  Content="{Binding DPar.MaterialThickness, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}"
+                                                  IsChecked="{Binding RBPar.LayersMaterialThickness_4}"
+                                                  Command="{Binding MaterialThicknessParCommand}" CommandParameter="{Binding DPar.MaterialThickness}"/>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            InputScope="Number"
+                                            Visibility="{Binding EditEnaLayerSheetThickness, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"
+                                            Text="{Binding DPar.MaterialThickness, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                        </CustomCtrlLib:TextBox>
+                                        <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                    </StackPanel>
+                                    <Grid Height="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <StackPanel Name="LayerWidth" Width="197" Orientation="Horizontal" HorizontalAlignment="Left"
+                              Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                        <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                              Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                            <Grid>
+                                                <CustomCtrlLib:Image SourceFileName="SheetWidth.png" Width="40" Height="40"/>
+                                            </Grid>
+                                        </CustomCtrlLib:AppButton>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            Background="{StaticResource Dark1BaseBackgroundThemeBrush}" InputScope="Number"
+                                            Text="{Binding ProductView.SelectedLayerView.LayerDefaultView.Width, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble2}}">
+                                        </CustomCtrlLib:TextBox>
+                                        <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                    </StackPanel>
+                                    <Grid Height="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <StackPanel Name="LayerHeight" Width="197" Orientation="Horizontal" HorizontalAlignment="Left"
+                              Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                        <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                              Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                            <Grid>
+                                                <CustomCtrlLib:Image SourceFileName="LayerHeight.png" Width="40" Height="40"/>
+                                            </Grid>
+                                        </CustomCtrlLib:AppButton>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            Background="{StaticResource Dark1BaseBackgroundThemeBrush}" InputScope="Number"
+                                            Visibility="{Binding RBPar.HeightRefType_2, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}"
+                                            Text="{Binding ProductView.SelectedLayerView.LayerDefaultView.Height, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDoubleHeight_mm_inch}}">
+                                        </CustomCtrlLib:TextBox>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            Background="{StaticResource Dark1BaseBackgroundThemeBrush}" InputScope="Number"
+                                            Visibility="{Binding RBPar.HeightRefType_2, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"
+                                            Text="{Binding ProductView.SelectedLayerView.LayerDefaultView.Height, Mode=TwoWay, ValidatesOnNotifyDataErrors=true, StringFormat={StaticResource FormatStringDoubleHeight_number}}">
+                                        </CustomCtrlLib:TextBox>
+                                        <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <StackPanel Name="HeightCorrection" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <StackPanel Name="HeightCorrectionRadioButtons" Orientation="Horizontal" Margin="0,1,0,0"
+                              HorizontalAlignment="Left" VerticalAlignment="Top">
+                                        <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                              Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                            <Grid>
+                                                <CustomCtrlLib:Image SourceFileName="LayerHeight.png" Width="40" Height="40"/>
+                                            </Grid>
+                                        </CustomCtrlLib:AppButton>
+                                        <CustomCtrlLib:SqRadioButton x:Name="HeightCorrNone" GroupName="group93" Width="67" Height="48" Margin="1,0,0,0"
+                                                  BorderThickness="0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  CommandParameter="{x:Static Product:EHeightCorrectionType.None}"
+                                                  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                                  IsChecked="{Binding RBPar.HeightCorrType_1}" Command="{Binding HeightCorrTypeParCommand}">
+                                            <Grid>
+                                                <CustomCtrlLib:Image Width="60" Height="40"
+                                              SourceFileName="{Binding ElementName=HeightCorrNone, Path=IsChecked, Converter={StaticResource ConverterEHeightCorrTypeSelToImage}, ConverterParameter={x:Static Product:EHeightCorrectionType.None}}"/>
+                                            </Grid>
+                                        </CustomCtrlLib:SqRadioButton>
+                                        <CustomCtrlLib:SqRadioButton x:Name="HeightCorrCCUp" GroupName="group93" Width="67" Height="48" Margin="1,0,0,0"
+                                                  BorderThickness="0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  CommandParameter="{x:Static Product:EHeightCorrectionType.CompleteCycleUp}"
+                                                  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                                  IsChecked="{Binding RBPar.HeightCorrType_2}" Command="{Binding HeightCorrTypeParCommand}">
+                                            <Grid>
+                                                <CustomCtrlLib:Image Width="60" Height="40"
+                                              SourceFileName="{Binding ElementName=HeightCorrCCUp, Path=IsChecked, Converter={StaticResource ConverterEHeightCorrTypeSelToImage}, ConverterParameter={x:Static Product:EHeightCorrectionType.CompleteCycleUp}}"/>
+                                            </Grid>
+                                        </CustomCtrlLib:SqRadioButton>
+                                        <CustomCtrlLib:SqRadioButton x:Name="HeightCorrCCDown" GroupName="group93" Width="67" Height="48" Margin="1,0,0,0"
+                                                  BorderThickness="0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  CommandParameter="{x:Static Product:EHeightCorrectionType.CompleteCycleDown}"
+                                                  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                                  IsChecked="{Binding RBPar.HeightCorrType_3}" Command="{Binding HeightCorrTypeParCommand}">
+                                            <Grid>
+                                                <CustomCtrlLib:Image Width="60" Height="40"
+                                              SourceFileName="{Binding ElementName=HeightCorrCCDown, Path=IsChecked, Converter={StaticResource ConverterEHeightCorrTypeSelToImage}, ConverterParameter={x:Static Product:EHeightCorrectionType.CompleteCycleDown}}"/>
+                                            </Grid>
+                                        </CustomCtrlLib:SqRadioButton>
+                                        <CustomCtrlLib:SqRadioButton x:Name="HeightCorrPUp" GroupName="group93" Width="67" Height="48" Margin="1,0,0,0"
+                                                  BorderThickness="0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  CommandParameter="{x:Static Product:EHeightCorrectionType.PreciseUp}"
+                                                  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                                  IsChecked="{Binding RBPar.HeightCorrType_4}" Command="{Binding HeightCorrTypeParCommand}">
+                                            <Grid>
+                                                <CustomCtrlLib:Image Width="60" Height="40"
+                                              SourceFileName="{Binding ElementName=HeightCorrPUp, Path=IsChecked, Converter={StaticResource ConverterEHeightCorrTypeSelToImage}, ConverterParameter={x:Static Product:EHeightCorrectionType.PreciseUp}}"/>
+                                            </Grid>
+                                        </CustomCtrlLib:SqRadioButton>
+                                        <CustomCtrlLib:SqRadioButton x:Name="HeightCorrPDown" GroupName="group93" Width="67" Height="48" Margin="1,0,0,0"
+                                                  BorderThickness="0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                                  CommandParameter="{x:Static Product:EHeightCorrectionType.PreciseDown}"
+                                                  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                                  IsChecked="{Binding RBPar.HeightCorrType_5}" Command="{Binding HeightCorrTypeParCommand}">
+                                            <Grid>
+                                                <CustomCtrlLib:Image Width="60" Height="40"
+                                              SourceFileName="{Binding ElementName=HeightCorrPDown, Path=IsChecked, Converter={StaticResource ConverterEHeightCorrTypeSelToImage}, ConverterParameter={x:Static Product:EHeightCorrectionType.PreciseDown}}"/>
+                                            </Grid>
+                                        </CustomCtrlLib:SqRadioButton>
+                                        <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                    </StackPanel>
+                                    <Grid Height="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top"
+                            Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                    <StackPanel Name="LayerInfo" Width="197" Orientation="Horizontal" HorizontalAlignment="Left"
+                              Background="{DynamicResource BaseBackgroundThemeBrush}">
+                                        <CustomCtrlLib:AppButton Width="60" Height="48" BorderThickness="0" Margin="0,0,0,0"
+                                              Background="{StaticResource Dark1BaseBackgroundThemeBrush}" IsEnabled="false">
+                                            <Grid>
+                                                <CustomCtrlLib:Image SourceFileName="LayerInfo.png" Width="40" Height="40"/>
+                                            </Grid>
+                                        </CustomCtrlLib:AppButton>
+                                        <CustomCtrlLib:TextBox Width="135" Height="48" Margin="1,0,0,0" BorderThickness="0" HorizontalContentAlignment="Center"
+                                            Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                            Text="{Binding ProductView.SelectedLayerView.Info, Mode=TwoWay}">
+                                        </CustomCtrlLib:TextBox>
+                                        <Grid Width="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                    </StackPanel>
+                                    <Grid Height="1" Background="{DynamicResource BaseBackgroundThemeBrush}"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <Grid Name="EmptySpace" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+              HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="6,-6,0,156"
+              Visibility="{Binding EmptySpaceEna, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"
+              Width="{Binding EmptySpaceWidth, Mode=TwoWay}" Height="{Binding EmptySpaceHeight, Mode=TwoWay}"/>
+                <Grid Name="ProtectEditor"
+              Visibility="{Binding ProtectEditorPanel, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                    <StackPanel Background="#00FFFFFF"/>
+                </Grid>
+            </Grid>
+            <Grid Name="AppBar" Width="1366" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+        </Grid>
+    <Grid Name="FileSelector" Resources="{StaticResource FileSelector}"
+          Visibility="{Binding FileSelectorVisuEna, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+      <UserCtrlFileSelector:FileSelectorUserControl FrameworkElement.Name="usrFileSelector" FrameworkElement.Margin="0,0,0,0" Control.Padding="10"
+                                                          Control.Background="{Binding wndJobEditor}"
+                                                          FileSelectorType="{Binding FileSelector.Type}" RootPath="{Binding FileSelector.RootPath}"
+                                                          CurrentPath="{Binding FileSelector.CurrentPath}" CurrentFile="{Binding FileSelector.CurrentFile}"
+                                                          ShowFileExtension="{Binding FileSelector.ShowFileExtension}"
+                                                          DefaultFileExtension="{Binding FileSelector.DefaultFileExtension}"
+                                                          FileSearchPattern="{Binding FileSelector.FileSearchPattern}"
+                                                          TextCancel="{Binding FileSelector.TextCancel}" TextFiles="{Binding FileSelector.TextFiles}"
+                                                          TextGoUp="{Binding FileSelector.TextGoUp}" TextOK="{Binding FileSelector.TextOK}"
+                                                          TextSortByDate="{Binding FileSelector.TextSortByDate}"
+                                                          TextSortByName="{Binding FileSelector.TextSortByName}" CommandOK="{Binding FileSelector.CommandOK}"
+                                                          CommandCancel="{Binding FileSelector.CommandCancel}"
+                                                          ForceRescanFiles="{Binding FileSelector.ForceRescanFiles}"/>
+    </Grid>
+    <Grid Name="Login" Resources="{StaticResource Login}"
+          Visibility="{Binding LogInVisuEna, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+      <UserCtrlLogin:LoginUserControl Name="usrLogin" Margin="0,0,0,0" Padding="10" UserSource="xxx.users.xml"
+                                            Background="#204653"
+                                            CommandLogIn="{Binding LogIn.CommandLogIn}" CommandCancel="{Binding LogIn.CommandCancel}"/>
+    </Grid>
+      
+  </Grid>
+</CustomCtrlLib:Window>

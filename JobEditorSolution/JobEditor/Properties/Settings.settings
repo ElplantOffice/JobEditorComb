@@ -1,0 +1,75 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="JobEditor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TcpIpServerAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="TcpIpServerPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">8888</Value>
+    </Setting>
+    <Setting Name="TcpIpKeepAliveTimeoutTime" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">-5000</Value>
+    </Setting>
+    <Setting Name="TcpIpKeepAliveSendInterval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2000</Value>
+    </Setting>
+    <Setting Name="TcpIpConnectRetry" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+    <Setting Name="LocalisationLoadFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">JobEditor.Translation.xml</Value>
+    </Setting>
+    <Setting Name="LocalisationSaveFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">JobEditor.Translation.new.xml</Value>
+    </Setting>
+    <Setting Name="LocalisationDefaultId" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1033</Value>
+    </Setting>
+    <Setting Name="IsSwipeEnabled" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ReconnectToServerAfterDisconnect" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SequenceMakerFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SequenceMaker.xml</Value>
+    </Setting>
+    <Setting Name="DefaultParametersFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DefaultPar.xml</Value>
+    </Setting>
+    <Setting Name="HmiProcessFilename" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Hmi.exe</Value>
+    </Setting>
+    <Setting Name="UnitsInInches" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ImportPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\Products</Value>
+    </Setting>
+    <Setting Name="ImportFileExtension" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.prg</Value>
+    </Setting>
+    <Setting Name="ImportEnable" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="LoginEnable" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SequenceMakerShapesPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CutSequences1111</Value>
+    </Setting>
+    <Setting Name="PathProducts" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\Korisnik\Desktop</Value>
+    </Setting>
+    <Setting Name="PLC_Active" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PLC_Port" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">851</Value>
+    </Setting>
+    <Setting Name="LastActivatedProductPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\ELPLANT\LastActivatedProduct</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

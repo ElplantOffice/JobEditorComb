@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ADC7A7D0-1B15-4672-A947-FC24B238F55C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>JobEditor</RootNamespace>
+    <AssemblyName>JobEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\El PLant\DOK Job Editor Priprema\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\localhost\Users\Public\</InstallUrl>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ElPlant.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3D214DE65DB75FDE2801E9857EBDC5E716308500</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>JobEditor_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="TwinCAT.Ads, Version=4.0.6.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TwinCAT.Ads.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AppBar\AppBarModel.cs" />
+    <Compile Include="AppBar\AppBarViewModel.cs" />
+    <Compile Include="AppBar\InvertVisibility.cs" />
+    <Compile Include="Common\CentersUCPar.cs" />
+    <Compile Include="Common\CutSequenceItem.cs" />
+    <Compile Include="Common\DataPar.cs" />
+    <Compile Include="Common\DefaultPar.cs" />
+    <Compile Include="Common\EventToCommand.cs" />
+    <Compile Include="Common\FileSelectorType.cs" />
+    <Compile Include="Common\HolesUCPar.cs" />
+    <Compile Include="Common\ItemsControlExt.cs" />
+    <Compile Include="Common\RadioButtonsPar.cs" />
+    <Compile Include="Common\ShapeInfoView.cs" />
+    <Compile Include="Common\SlotsUCPar.cs" />
+    <Compile Include="Common\StepLapsUCPar.cs" />
+    <Compile Include="Common\TipCutsUCPar.cs" />
+    <Compile Include="Common\ValidationViewBase.cs" />
+    <Compile Include="ConverterEHeightCorrTypeSelToImage.cs" />
+    <Compile Include="ConverterEHoleShapeToImageName.cs" />
+    <Compile Include="ConverterEMeasuringTypeSelToImage.cs" />
+    <Compile Include="ConverterEMeasuringTypeToImage.cs" />
+    <Compile Include="ConverterEStepLapTypeToImageName.cs" />
+    <Compile Include="ConverterETipCutTypeToImageName.cs" />
+    <Compile Include="ConverterNumberOfHolesCBIntToEmptySpaceVisibility.cs" />
+    <Compile Include="ConverterNumberOfHolesCBIntToSelectionVisibility.cs" />
+    <Compile Include="ConverterNumberOfHolesCBIntToShowNextVisibility.cs" />
+    <Compile Include="ConverterNumberOfHolesCBIntToString.cs" />
+    <Compile Include="DokTest\CsvUtils.cs" />
+    <Compile Include="DokTest\CutSequence.cs" />
+    <Compile Include="CutSeqGenerator\LayerLine.cs" />
+    <Compile Include="CutSeqGenerator\LayerToPLC.cs" />
+    <Compile Include="CutSeqGenerator\Constants.cs" />
+    <Compile Include="CutSeqGenerator\ToolData.cs" />
+    <Compile Include="CutSeqGenerator\ToolPar.cs" />
+    <Compile Include="CutSeqGenerator\Generator.cs" />
+    <Compile Include="DokTest\CombinationGenerator.cs" />
+    <Compile Include="DokTest\CutSequencesToolsCombination.cs" />
+    <Compile Include="DokTest\CutsOff.cs" />
+    <Compile Include="DokTest\JobCutSequences.cs" />
+    <Compile Include="DokTest\JobManager.cs" />
+    <Compile Include="DokTest\JoiningInfo.cs" />
+    <Compile Include="DokTest\LayerCutSequences.cs" />
+    <Compile Include="DokTest\OptimizedCutSeqGenerator.cs" />
+    <Compile Include="DokTest\FeatureToolDependencies.cs" />
+    <Compile Include="DokTest\MachineTools.cs" />
+    <Compile Include="DokTest\Job.cs" />
+    <Compile Include="Helpers\RelayCommand.cs" />
+    <Compile Include="Import\IImport.cs" />
+    <Compile Include="Import\VTC_Config.cs" />
+    <Compile Include="Import\VTC_ConfigSteelGrade.cs" />
+    <Compile Include="Import\VTC_Import.cs" />
+    <Compile Include="JobEditorFileResourceData.cs" />
+    <Compile Include="JobEditorFileResourceDataInfo.cs" />
+    <Compile Include="JobEditorFileResources.cs" />
+    <Compile Include="JobEditorFileSelector.cs" />
+    <Compile Include="JobEditorLogin.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuModel.cs" />
+    <Compile Include="Menu\MenuViewModel.cs" />
+    <Compile Include="Model\EditorModel.cs" />
+    <Compile Include="ProcessedByFody.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\EditorViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelBase1.cs" />
+    <Compile Include="Views\CentersUserControl.xaml.cs">
+      <DependentUpon>CentersUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HolesUserControl.xaml.cs">
+      <DependentUpon>HolesUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductData\CentersDefaultView.cs" />
+    <Compile Include="Views\ProductData\CentersView.cs" />
+    <Compile Include="Views\ProductData\HolesDefaultView.cs" />
+    <Compile Include="Views\ProductData\HolesView.cs" />
+    <Compile Include="Views\ProductData\LayerDefaultView.cs" />
+    <Compile Include="Views\ProductData\LayerView.cs" />
+    <Compile Include="Views\ProductData\ProductDataViewBase.cs" />
+    <Compile Include="Views\ProductData\ProductView.cs" />
+    <Compile Include="Views\ProductData\ShapePartView.cs" />
+    <Compile Include="Views\ProductData\ShapeView.cs" />
+    <Compile Include="Views\ProductData\SlotsDefaultView.cs" />
+    <Compile Include="Views\ProductData\SlotsView.cs" />
+    <Compile Include="Views\ProductData\StackingView.cs" />
+    <Compile Include="Views\ProductData\StepLapsDefaultView.cs" />
+    <Compile Include="Views\ProductData\StepLapView.cs" />
+    <Compile Include="Views\ProductData\StepView.cs" />
+    <Compile Include="Views\ProductData\TipCutsDefaultView.cs" />
+    <Compile Include="Views\ProductData\TipCutView.cs" />
+    <Compile Include="Views\SlotsUserControl.xaml.cs">
+      <DependentUpon>SlotsUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StackerUserControl.xaml.cs">
+      <DependentUpon>StackerUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StepLapsUserControl.xaml.cs">
+      <DependentUpon>StepLapsUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TipCutsUserControl.xaml.cs">
+      <DependentUpon>TipCutsUserControl.xaml</DependentUpon>
+    </Compile>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <EmbeddedResource Include="AppBar\Views\AppBarViewModel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <EmbeddedResource Include="Menu\Views\MenuViewModel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Page Include="Views\CentersUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\HolesUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SlotsUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\StackerUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\StepLapsUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TipCutsUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Communication.Pc\Communication.Pc.csproj">
+      <Project>{85254bb2-f8cf-4997-86cd-d4ba94b7d570}</Project>
+      <Name>Communication.Pc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CustomControlLibrary\CustomControlLibrary.csproj">
+      <Project>{f7af8c94-59bb-44e7-b95b-d10f0a5ed4fa}</Project>
+      <Name>CustomControlLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Communication.Plc\Communication.Plc.csproj">
+      <Project>{0cac2bbd-a90a-4da7-b5ae-d80b502e3898}</Project>
+      <Name>Communication.Plc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Messages\Messages.csproj">
+      <Project>{da64a440-89c2-4d05-bd63-a41414065b39}</Project>
+      <Name>Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{f630a03e-2c10-4f82-9362-079f76a7d569}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Patterns.EventAggregator\Patterns.EventAggregator.csproj">
+      <Project>{2f347fbe-556b-4022-80e9-de5e3100d9f7}</Project>
+      <Name>Patterns.EventAggregator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProductLib\ProductLib.csproj">
+      <Project>{da8f36fc-f257-4566-b065-3e12e1161573}</Project>
+      <Name>ProductLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services.TRL\Services.TRL.csproj">
+      <Project>{9e9718fe-22df-45c4-bcb5-f5f632b141b1}</Project>
+      <Name>Services.TRL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{b2e5b4aa-f054-4ae0-b6f2-db37da042cbc}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControls.FileSelector\UserControls.FileSelector.csproj">
+      <Project>{fe190976-93bd-4049-b1fd-54aa13249055}</Project>
+      <Name>UserControls.FileSelector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControls.Login\UserControls.Login.csproj">
+      <Project>{e15c5039-4530-4bb0-a01d-ca4fa160354e}</Project>
+      <Name>UserControls.Login</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utils\Utils.csproj">
+      <Project>{51931371-fa8c-44c0-8eb5-eafdcffd2286}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="data\DefaultPar.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="data\SequenceMaker.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="data\JobEditor.Convert.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\001-001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\002-002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\002-011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\003-003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\004-004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\006-006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\007-007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\008-004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\008-008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\2004-004-2004-004-006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\2004-004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\2004.2-004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\2004.3-004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Absolute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Absolute_Layers_Notsel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Absolute_Layers_Sel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Activate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\ActualLayer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Apply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\ArrowDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\ArrowUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Centers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Desktop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\DoubleCut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\HoleOffset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Holes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\LayerHeight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\LayerHeightUnit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\LayerInfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\LayerMeasure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Layers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Load.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\MenuBkw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\MenuCopy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\MenuDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\MenuFwd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\MenuPaste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\MenuPasteAll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\MenuUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\New.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\NumberOfLayers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\NumberOfSame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\NumberOfSteps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\OblongHole.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\OverCut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Products.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Relative.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Relative_Layers_NotSel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Relative_Layers_Sel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\RoundHole.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\SheetThickness.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\SheetWidth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Slots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\SlotY2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Stacking_Cc_Down_NotSel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Stacking_Cc_Down_Sel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Stacking_Cc_Up_NotSel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Stacking_Cc_Up_Sel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Stacking_No_NotSel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Stacking_No_Sel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Stacking_P_Down_NotSel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Stacking_P_Down_Sel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Stacking_P_Up_NotSel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Stacking_P_Up_Sel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\StepLaps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\StepValue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\Symmetric.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\TipCut_Cut135Left_Off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\TipCut_Cut135Left_On.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\TipCut_Cut135Right_Off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\TipCut_Cut135Right_On.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\TipCut_Cut45Left_Off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\TipCut_Cut45Left_On.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\TipCut_Cut45Right_Off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\TipCut_Cut45Right_On.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\TipCutHeight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\TipCuts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\VOffset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_convention.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_ctipleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_ctipleft_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_ctipleft_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_ctipleft_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_ctipleft_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_ctipright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_ctipright_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_ctipright_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_ctipright_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_ctipright_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut135left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut135left_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut135left_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut135right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut135right_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut135right_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut45left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut45left_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut45left_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut45right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut45right_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut45right_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut90left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut90left_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut90left_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut90right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut90right_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_cut90right_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_vbottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_vbottom_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_vbottom_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_vbottom_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_vbottom_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_vtop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_vtop_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_vtop_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_vtop_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\shapes\shape_vtop_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\JobEditor.Translation.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ElPlant.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\ElPlant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\icons\JobEditor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cutsequences\2004-2004.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

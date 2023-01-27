@@ -1,0 +1,25 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:System="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:CustomControlLibrary">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/CustomControlLibrary;component/Themes/General/Colors.xaml"/>
+        <ResourceDictionary Source="/CustomControlLibrary;component/Themes/General/Fonts.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style TargetType="{x:Type local:AppBar}">
+        <Setter Property="Background" Value="{DynamicResource BaseBackgroundThemeBrush}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:AppBar}">
+                    <Grid Background="{TemplateBinding Background}">
+                        <Grid Background="{DynamicResource AppBarBackgroundThemeBrush}">
+                            <ItemsPresenter />
+                        </Grid>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

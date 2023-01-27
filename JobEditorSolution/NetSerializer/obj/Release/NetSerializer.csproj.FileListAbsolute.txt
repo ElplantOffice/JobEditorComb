@@ -1,0 +1,40 @@
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.csprojAssemblyReference.cache
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.csproj.CoreCompileInputs.cache
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.csprojAssemblyReference.cache
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.csproj.CoreCompileInputs.cache
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\NetSerializer\bin\Release\NetSerializer.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\NetSerializer\obj\Release\NetSerializer.pdb

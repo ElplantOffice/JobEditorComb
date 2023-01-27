@@ -1,0 +1,61 @@
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Communication.Pc\bin\Debug\Communication.Pc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Communication.Pc\bin\Debug\Communication.Pc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Communication.Pc\bin\Debug\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Communication.Pc\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Communication.Pc\bin\Debug\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Communication.Pc\bin\Debug\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Communication.Pc\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Communication.Pc\bin\Debug\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Communication.Pc\bin\Debug\Communication.Pc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Communication.Pc\bin\Debug\Communication.Pc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Communication.Pc\bin\Debug\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Communication.Pc\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Communication.Pc\bin\Debug\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Communication.Pc\bin\Debug\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Communication.Pc\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Communication.Pc\bin\Debug\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\Communication.Pc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\Communication.Pc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\Communication.Pc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\Communication.Pc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Debug\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Debug\Communication.Pc.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Debug\Communication.Pc.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Debug\Messages.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Debug\NetSerializer.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Debug\Messages.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Debug\NetSerializer.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.csproj.AssemblyReference.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.csproj.CoreCompileInputs.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.csproj.CopyComplete
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Communication.Pc\obj\Debug\Communication.Pc.pdb

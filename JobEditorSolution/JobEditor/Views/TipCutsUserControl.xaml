@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="JobEditor.Views.TipCutsUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
+             xmlns:Utils="clr-namespace:CustomControlLibrary;assembly=CustomControlLibrary"
+             xmlns:Local="clr-namespace:JobEditor"
+             xmlns:ProductLib="clr-namespace:ProductLib;assembly=ProductLib"
+             Loaded="LoadUserControl" Unloaded="Dispose" x:Name="UserControl" MinWidth="216"
+             Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Height="440" Margin="0,0,4,0"
+             Width="{Binding Path=UCPar.TipCutsUserControlWidth, ElementName=UserControl}">
+    <FrameworkElement.Resources>
+        <Local:ConverterETipCutTypeToImageName x:Key="converterETipCutTypeToImageNames"/>
+    </FrameworkElement.Resources>
+    <Grid x:Name="TipCutsMainGrid">
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <Border BorderThickness="1" Margin="-1,-1,0,0" BorderBrush="{DynamicResource BaseBackgroundThemeBrush}"
+                Height="86"/>
+                <Utils:ListBox Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Height="50"
+                        ItemsSource="{Binding Path=ShapeViewDP.DrawShape.ShapeElements, ElementName=UserControl}"
+                        Width="{Binding Path=ShapeViewDP.DrawShape.ShapeLength, ElementName=UserControl}">
+                    <ItemsControl.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListBoxItem}">
+                            <Setter Property="UIElement.Focusable" Value="false"/>
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <Canvas Margin="7,1,0,0"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                </Utils:ListBox>
+            </Grid>
+            <Utils:ListBox Name="ListBox1" Background="#FFDE3E19" Focusable="false"
+                      ItemsSource="{Binding ShapePartViews, Mode=TwoWay}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Name="Wrap1" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="0,-1,-1,0"
+                       HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Utils:ComboBox Name="ComboBox1" Margin="-1,-1,0,0" BorderThickness="1" HorizontalAlignment="Left"
+                             VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                             Width="73" Height="73" DropDownSymbol="" MaxDropDownHeight="400" SelectionChanged="TipCutTypeChanged"
+                             SelectedValue="{Binding TipCutView.Type, Mode=TwoWay}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Utils:Image SourceFileName="{Binding Converter={StaticResource converterETipCutTypeToImageNames}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="Control.HorizontalContentAlignment" Value="Center"/>
+                                    <Setter Property="FrameworkElement.Width" Value="73"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="UIElement.Visibility" Value="Collapsed"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </Utils:ComboBox>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemContainerStyle>
+                    <Style TargetType="{x:Type Utils:ListBoxItem}">
+                        <Setter Property="UIElement.Focusable" Value="false"/>
+                    </Style>
+                </ItemsControl.ItemContainerStyle>
+            </Utils:ListBox>
+            <Grid>
+                <Border BorderThickness="1" Margin="-1,-1,0,0" BorderBrush="{DynamicResource BaseBackgroundThemeBrush}"
+                Height="360"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

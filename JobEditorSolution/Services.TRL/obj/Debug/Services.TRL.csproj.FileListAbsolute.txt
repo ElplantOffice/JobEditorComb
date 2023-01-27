@@ -1,0 +1,109 @@
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csprojAssemblyReference.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\Communication.Plc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\Models.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\ProductLib.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\Services.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\TwinCAT.Ads.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\Services.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\Communication.Plc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\Models.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\ProductLib.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\Services.TRL.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\bin\Debug\Services.TRL.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\Services.TRL.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\Services.TRL.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\Communication.Plc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\Models.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\ProductLib.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\Services.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\TwinCAT.Ads.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\Communication.Plc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\Models.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\ProductLib.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\Services.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\bin\Debug\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csprojAssemblyReference.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Services.TRL.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Services.TRL.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Communication.Plc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Models.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\ProductLib.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Services.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\TwinCAT.Ads.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Communication.Plc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Models.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\ProductLib.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Services.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csprojAssemblyReference.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Services.TRL.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Services.TRL.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Communication.Plc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Models.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\ProductLib.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Services.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\TwinCAT.Ads.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Communication.Plc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Models.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\ProductLib.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\Services.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\bin\Debug\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\Services.TRL.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\Services.TRL.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\Communication.Plc.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\Messages.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\Models.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\ProductLib.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\Services.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\TwinCAT.Ads.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\NetSerializer.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\Communication.Plc.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\Messages.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\Models.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\ProductLib.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\Services.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\bin\Debug\NetSerializer.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csproj.AssemblyReference.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csproj.CoreCompileInputs.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.csproj.CopyComplete
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\Services.TRL\obj\Debug\Services.TRL.pdb

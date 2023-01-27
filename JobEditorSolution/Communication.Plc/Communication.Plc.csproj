@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0CAC2BBD-A90A-4DA7-B5AE-D80B502E3898}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Communication.Plc</RootNamespace>
+    <AssemblyName>Communication.Plc</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TwinCAT.Ads">
+      <HintPath>..\..\TwinCAT.Ads.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ads\AdsClient.cs" />
+    <Compile Include="Ads\AdsClientEvents.cs" />
+    <Compile Include="Ads\AdsSettings.cs" />
+    <Compile Include="Ads\AdsSymbolPrototype.cs" />
+    <Compile Include="Communication\Plc\Channel\PlcChannel.cs" />
+    <Compile Include="Communication\Plc\Channel\PlcChannelInfo.cs" />
+    <Compile Include="Communication\Plc\Channel\PlcChannelState.cs" />
+    <Compile Include="Communication\Plc\Channel\PlcServices.cs" />
+    <Compile Include="Communication\Plc\IMappable.cs" />
+    <Compile Include="Communication\Plc\IPlcMappable.cs" />
+    <Compile Include="Communication\Plc\PlcAddress.cs" />
+    <Compile Include="Communication\Plc\PlcAddressRegistry.cs" />
+    <Compile Include="Communication\Plc\PlcAdministrator.cs" />
+    <Compile Include="Communication\Plc\PlcAggregator.cs" />
+    <Compile Include="Communication\Plc\PlcEventRegistry.cs" />
+    <Compile Include="Communication\Plc\PlcMapper.cs" />
+    <Compile Include="Communication\Plc\PlcModuleInfo.cs" />
+    <Compile Include="Communication\Plc\PlcPacket.cs" />
+    <Compile Include="Communication\Plc\PlcPntr.cs" />
+    <Compile Include="Communication\Plc\PlcTelegram.cs" />
+    <Compile Include="Communication\Plc\PlcTypeContainer.cs" />
+    <Compile Include="Communication\Plc\PlcTypeResolver.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcBaseAddressRaw.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcBaseRefPntrRaw.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcChannelInfoRaw.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcCommAddressRaw.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcCommandHandleRaw.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcControlDataRaw.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcEventSinkRaw.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcEventSourceRaw.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcEventSourceSiblings.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcTelegramRaw.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcTreeElementIdentityRaw.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcTreeElementLocationRaw.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcTreeElementStringRaw.cs" />
+    <Compile Include="Communication\Plc\Shared\PlcUiPrototypeRaw.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\CommBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Messages\Messages.csproj">
+      <Project>{da64a440-89c2-4d05-bd63-a41414065b39}</Project>
+      <Name>Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Patterns.EventAggregator\Patterns.EventAggregator.csproj">
+      <Project>{2f347fbe-556b-4022-80e9-de5e3100d9f7}</Project>
+      <Name>Patterns.EventAggregator</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,87 @@
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\Communication.Pc\bin\Release\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\Communication.Pc\bin\Release\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Messages.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Messages.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csprojAssemblyReference.cache
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csproj.CoreCompileInputs.cache
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csproj.CopyComplete
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Messages.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Messages.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csprojAssemblyReference.cache
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csproj.CoreCompileInputs.cache
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csproj.CopyComplete
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Release\Communication.Pc.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Release\Messages.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Release\Messages.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Release\Patterns.EventAggregator.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\bin\Release\NetSerializer.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.csproj.CopyComplete
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\Communication.Pc\obj\Release\Communication.Pc.pdb

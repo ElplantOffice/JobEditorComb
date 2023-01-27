@@ -1,0 +1,123 @@
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csprojAssemblyReference.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\obj\Debug\colors.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\obj\Debug\FileSelectorUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector_MarkupCompile.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector_MarkupCompile.lref
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\bin\Debug\UserControls.FileSelector.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\bin\Debug\UserControls.FileSelector.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\bin\Debug\CustomControlLibrary.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\bin\Debug\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\bin\Debug\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\bin\Debug\CustomControlLibrary.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\bin\Debug\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\bin\Debug\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\obj\Debug\FileSelectorUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.g.resources
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\UserControls.FileSelector.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\UserControls.FileSelector.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\CustomControlLibrary.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\CustomControlLibrary.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csprojAssemblyReference.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\colors.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\FileSelectorUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector_MarkupCompile.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector_MarkupCompile.lref
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\FileSelectorUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.g.resources
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\UserControls.FileSelector.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\UserControls.FileSelector.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\bin\Debug\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\colors.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\FileSelectorUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector_MarkupCompile.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector_MarkupCompile.lref
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\FileSelectorUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.g.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\bin\Debug\UserControls.FileSelector.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\bin\Debug\UserControls.FileSelector.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\bin\Debug\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\bin\Debug\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\bin\Debug\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\bin\Debug\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\bin\Debug\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\bin\Debug\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\bin\Debug\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\bin\Debug\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\obj\Debug\colors.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\obj\Debug\FileSelectorUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector_MarkupCompile.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector_MarkupCompile.lref
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\obj\Debug\FileSelectorUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.g.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\bin\Debug\UserControls.FileSelector.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\bin\Debug\UserControls.FileSelector.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\bin\Debug\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\bin\Debug\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\bin\Debug\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\bin\Debug\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\bin\Debug\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\bin\Debug\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\bin\Debug\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\bin\Debug\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\obj\Debug\colors.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\obj\Debug\FileSelectorUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector_MarkupCompile.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector_MarkupCompile.lref
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\obj\Debug\FileSelectorUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.g.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\bin\Debug\UserControls.FileSelector.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\bin\Debug\UserControls.FileSelector.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\bin\Debug\CustomControlLibrary.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\bin\Debug\Messages.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\bin\Debug\NetSerializer.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\bin\Debug\CustomControlLibrary.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\bin\Debug\Messages.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\bin\Debug\NetSerializer.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csproj.AssemblyReference.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\obj\Debug\colors.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\obj\Debug\FileSelectorUserControl.g.cs
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector_MarkupCompile.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector_MarkupCompile.lref
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\obj\Debug\FileSelectorUserControl.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.g.resources
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csproj.CoreCompileInputs.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.csproj.CopyComplete
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.FileSelector\obj\Debug\UserControls.FileSelector.pdb

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Convert EnableHeightMeasurement="false" OverCut="0.050" >
+  <SteelGrades>
+    <SteelGrade Value="0" Name="M3" Thickness="0.009" />
+    <SteelGrade Value="1" Name="M4" Thickness="0.009" />
+    <SteelGrade Value="2" Name="M6" Thickness="0.009" />
+    <SteelGrade Value="3" Name="H0" Thickness="0.009" />
+    <SteelGrade Value="4" Name="H1" Thickness="0.009" />
+    <SteelGrade Value="5" Name="M2" Thickness="0.009" />
+    <SteelGrade Value="6" Name="H0-DR" Thickness="0.009" />
+    <SteelGrade Value="7" Name="H1-DR" Thickness="0.009" />
+    <SteelGrade Value="8" Name="H090-23" Thickness="0.009" />
+    <SteelGrade Value="9" Name="30PH105" Thickness="0.009" />
+    <SteelGrade Value="10" Name="C120-27" Thickness="0.009" />
+  </SteelGrades>
+</Convert>

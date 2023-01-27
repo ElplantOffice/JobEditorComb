@@ -1,0 +1,31 @@
+﻿<Grid 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:CustomCtrlLib="clr-namespace:CustomControlLibrary;assembly=CustomControlLibrary"
+        xmlns:UI="clr-namespace:Models;assembly=Models" 
+        mc:Ignorable="d" 
+    >
+
+    <CustomCtrlLib:AppButton HorizontalAlignment="Left" VerticalAlignment="Top" Height="65" Width="340" Margin="7,0" Command="{Binding Menu00.Command, Mode=OneWay}" IsEnabled="{Binding Menu00.IsEnabled}"  Visibility="{Binding Menu00.Visibility}">
+        <StackPanel Orientation="Horizontal">
+            <CustomCtrlLib:Image SourceFileName="{Binding Menu00.ContentImage}" Width="46" Height="46"/>
+            <CustomCtrlLib:HeaderLabel Content="{Binding Menu00.ContentText, FallbackValue=''}" Margin="10,5,0,0"/>
+        </StackPanel>
+    </CustomCtrlLib:AppButton>
+
+    <CustomCtrlLib:Label Margin="7,59,0,0" Content="{Binding InfoMenu.ContentText, FallbackValue=''}" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    <CustomCtrlLib:TilePanel Margin="0,86,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Rows="5" Columns="2" TileWidth="108" TileHeight="108" Background="{DynamicResource Dark1BaseBackgroundThemeBrush}" TileBackground="#88FFFFFF">
+        <CustomCtrlLib:TileButton Name="Tile1" ContentText="{Binding Menu01.ContentText, FallbackValue=''}" IsEnabled="{Binding Menu01.IsEnabled}"  Visibility="{Binding Menu01.Visibility}" ContentImageSourceFileName="{Binding Menu01.ContentImage}" Command="{Binding Menu01.Command, Mode=OneWay}"/>
+        <CustomCtrlLib:TileButton Name="Tile2" ContentText="{Binding Menu02.ContentText, FallbackValue=''}" IsEnabled="{Binding Menu02.IsEnabled}"  Visibility="{Binding Menu02.Visibility}" ContentImageSourceFileName="{Binding Menu02.ContentImage}" Command="{Binding Menu02.Command, Mode=OneWay}"/>
+        <CustomCtrlLib:TileButton Name="Tile3" ContentText="{Binding Menu03.ContentText, FallbackValue=''}" IsEnabled="{Binding Menu03.IsEnabled}"  Visibility="{Binding Menu03.Visibility}" ContentImageSourceFileName="{Binding Menu03.ContentImage}" Command="{Binding Menu03.Command, Mode=OneWay}"/>
+        <CustomCtrlLib:TileButton Name="Tile4" ContentText="{Binding Menu04.ContentText, FallbackValue=''}" IsEnabled="{Binding Menu04.IsEnabled}"  Visibility="{Binding Menu04.Visibility}" ContentImageSourceFileName="{Binding Menu04.ContentImage}" Command="{Binding Menu04.Command, Mode=OneWay}"/>
+        <CustomCtrlLib:TileButton Name="Tile5" ContentText="{Binding Menu05.ContentText, FallbackValue=''}" IsEnabled="{Binding Menu05.IsEnabled}"  Visibility="{Binding Menu05.Visibility}"  ContentImageSourceFileName="{Binding Menu05.ContentImage}" Command="{Binding Menu05.Command, Mode=OneWay}"/>
+        <CustomCtrlLib:TileButton Name="Tile6" ContentText="{Binding Menu06.ContentText, FallbackValue=''}" IsEnabled="{Binding Menu06.IsEnabled}"  Visibility="{Binding Menu06.Visibility}" ContentImageSourceFileName="{Binding Menu06.ContentImage}" Command="{Binding Menu06.Command, Mode=OneWay}"/>
+        <CustomCtrlLib:TileButton Name="Tile7" ContentText="{Binding Menu07.ContentText, FallbackValue=''}" IsEnabled="{Binding Menu07.IsEnabled}"  Visibility="{Binding Menu07.Visibility}"  ContentImageSourceFileName="{Binding Menu07.ContentImage}"  Command="{Binding Menu07.Command, Mode=OneWay}"/>
+        <CustomCtrlLib:TileButton Name="Tile8" ContentText="{Binding Menu08.ContentText, FallbackValue=''}" IsEnabled="{Binding Menu08.IsEnabled}"  Visibility="{Binding Menu08.Visibility}"  ContentImageSourceFileName="{Binding Menu08.ContentImage}"  Command="{Binding Menu08.Command, Mode=OneWay}"/>
+        <CustomCtrlLib:TileButton Name="Tile9" ContentText="{Binding Menu09.ContentText, FallbackValue=''}" IsEnabled="{Binding Menu09.IsEnabled}"  Visibility="{Binding Menu09.Visibility}"  ContentImageSourceFileName="{Binding Menu09.ContentImage}"  Command="{Binding Menu09.Command, Mode=OneWay}"/>
+        <CustomCtrlLib:TileButton Name="Tile10" ContentText="{Binding Menu10.ContentText, FallbackValue=''}" IsEnabled="{Binding Menu10.IsEnabled}"  Visibility="{Binding Menu10.Visibility}"  ContentImageSourceFileName="{Binding Menu10.ContentImage}"  Command="{Binding Menu10.Command, Mode=OneWay}"/>
+    </CustomCtrlLib:TilePanel>
+</Grid>

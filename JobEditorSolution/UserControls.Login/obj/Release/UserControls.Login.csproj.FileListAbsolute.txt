@@ -1,0 +1,185 @@
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\colors.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csprojAssemblyReference.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.lref
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.g.resources
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\Messages.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\Messages.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csprojResolveAssemblyReference.cache
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\colors.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.g.cs
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.cache
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.lref
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.g.resources
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\colors.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.lref
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.g.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\bin\Release\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\bin\Release\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\obj\Release\colors.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.lref
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.g.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\colors.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.lref
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.g.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\Messages.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\Messages.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csprojAssemblyReference.cache
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\colors.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.g.cs
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.cache
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.lref
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.g.resources
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CoreCompileInputs.cache
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CopyComplete
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\Messages.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\Messages.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csprojAssemblyReference.cache
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\colors.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.g.cs
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.cache
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.lref
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.g.resources
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CoreCompileInputs.cache
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CopyComplete
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\Messages.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\Messages.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\colors.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.g.cs
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.cache
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.lref
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.g.resources
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CopyComplete
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\UserControls.Login.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\Messages.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\CustomControlLibrary.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\Patterns.EventAggregator.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\Messages.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\bin\Release\NetSerializer.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.AssemblyReference.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\colors.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.g.cs
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login_MarkupCompile.lref
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\LoginUserControl.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.g.resources
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CoreCompileInputs.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.csproj.CopyComplete
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\UserControls.Login\obj\Release\UserControls.Login.pdb

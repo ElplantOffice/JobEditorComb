@@ -1,0 +1,1152 @@
+﻿<UserControl x:Class="JobEditor.Views.HolesUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
+             xmlns:CustomCtrlLib="clr-namespace:CustomControlLibrary;assembly=CustomControlLibrary"
+             xmlns:Local="clr-namespace:JobEditor"
+             xmlns:Utils="clr-namespace:Utils;assembly=Utils"
+             xmlns:ProductLib="clr-namespace:ProductLib;assembly=ProductLib"
+             Loaded="LoadHolesUserControl" Unloaded="Dispose" x:Name="UserControl" MinWidth="216"
+             Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Height="440" Margin="0,0,4,0"
+             Width="{Binding Path=UCPar.HolesUserControlWidth, ElementName=UserControl}">
+    <FrameworkElement.Resources>
+        <ObjectDataProvider x:Key="dataFromEMeasuringType" MethodName="GetValues" ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="ProductLib:EMeasuringType"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider x:Key="dataFromEHoleShape" MethodName="GetValues" ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="ProductLib:EHoleShape"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <Local:ConverterEHoleShapeToImageName x:Key="converterEHoleShapeToImageName"/>
+        <Local:ConverterEMeasuringTypeToImage x:Key="converterEMeasuringTypeToImage"/>
+        <Local:ConverterNumberOfHolesCBIntToString x:Key="converterNumberOfHolesCBIntToString"/>
+        <Local:ConverterNumberOfHolesCBIntToSelectionVisibility x:Key="converterNumberOfHolesCBIntToSelectionVisibility"/>
+        <Local:ConverterNumberOfHolesCBIntToEmptySpaceVisibility x:Key="converterNumberOfHolesCBIntToEmptySpaceVisibility"/>
+        <Local:ConverterNumberOfHolesCBIntToShowNextVisibility x:Key="converterNumberOfHolesCBIntToShowNextVisibility"/>
+        <Utils:BoolToVisibility x:Key="BoolToVisibility"/>
+        <Utils:ConverterDoubleToString x:Key="converterDoubleToString"/>
+        <x:Array x:Key="FormatStringsDouble1" Type="{x:Type System:String}">
+            <System:String>f2</System:String>
+            <System:String>f4</System:String>
+        </x:Array>
+    </FrameworkElement.Resources>
+    <Grid Name="HolesUserControlMainGrid">
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <Border BorderThickness="1" Margin="-1,-1,0,0" BorderBrush="{DynamicResource BaseBackgroundThemeBrush}"
+                Height="86"/>
+                <CustomCtrlLib:ListBox Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Height="50"
+                                ItemsSource="{Binding Path=ShapeViewDP.DrawShape.ShapeElements, ElementName=UserControl}"
+                                Width="{Binding Path=ShapeViewDP.DrawShape.ShapeLength, ElementName=UserControl}">
+                    <ItemsControl.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListBoxItem}">
+                            <Setter Property="UIElement.Focusable" Value="false"/>
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <Canvas Margin="7,1,0,0"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                </CustomCtrlLib:ListBox>
+            </Grid>
+            <Grid>
+                <Border BorderThickness="1" Margin="-1,-1,0,0" BorderBrush="{DynamicResource BaseBackgroundThemeBrush}"/>
+                <StackPanel Name="NumberAndMeasurement" Orientation="Horizontal">
+                    <CustomCtrlLib:ComboBox SelectionChanged="NumberOfHolesChanged" Name="NumberOfHolesCB"
+                                   Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="-1,-1,0,0" BorderThickness="1"
+                                   HorizontalAlignment="Left" VerticalAlignment="Top" HorizontalContentAlignment="Left" Width="109"
+                                   Height="72" DropDownSymbol="" MaxDropDownHeight="360" IsManipulationEnabled="false"
+                                   ScrollViewer.PanningMode="None" SelectedValue="{Binding HolesView.NumberOfHoles, Mode=TwoWay}">
+                        <System:Int32>0</System:Int32>
+                        <System:Int32>1</System:Int32>
+                        <System:Int32>2</System:Int32>
+                        <System:Int32>3</System:Int32>
+                        <System:Int32>4</System:Int32>
+                        <System:Int32>5</System:Int32>
+                        <System:Int32>6</System:Int32>
+                        <System:Int32>7</System:Int32>
+                        <System:Int32>8</System:Int32>
+                        <System:Int32>9</System:Int32>
+                        <System:Int32>10</System:Int32>
+                        <System:Int32>-2</System:Int32>
+                        <System:Int32>-1</System:Int32>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Name="NumberHolesCBItem">
+                                    <CustomCtrlLib:Label Name="NumberHolesCBItemSelection" Height="60" Width="30" Margin="33,0,0,0"
+                                        HorizontalContentAlignment="Center"
+                                        Visibility="{Binding Converter={StaticResource converterNumberOfHolesCBIntToSelectionVisibility}}"
+                                        Content="{Binding Converter={StaticResource converterNumberOfHolesCBIntToString}}"/>
+                                    <CustomCtrlLib:AppButton Name="NumberHolesCBItemEmptySpace" Width="109" Height="144"
+                                            Visibility="{Binding Converter={StaticResource converterNumberOfHolesCBIntToEmptySpaceVisibility}}"/>
+                                    <CustomCtrlLib:AppButton Name="NumberHolesCBItemShowNext" Width="109" Height="72" Margin="0" Click="ShowNextNumberHoles"
+                                            Visibility="{Binding Converter={StaticResource converterNumberOfHolesCBIntToShowNextVisibility}}">
+                                        <CustomCtrlLib:Label Height="60" Width="30" Margin="33,0,0,0" HorizontalContentAlignment="Center"
+                                          Content="{Binding Converter={StaticResource converterNumberOfHolesCBIntToString}}"/>
+                                    </CustomCtrlLib:AppButton>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                        <ItemsControl.ItemContainerStyle>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                <Setter Property="Control.BorderThickness" Value="1"/>
+                                <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                <Setter Property="FrameworkElement.Width" Value="109"/>
+                                <Setter Property="FrameworkElement.Height" Value="72"/>
+                                <Style.Triggers>
+                                    <Trigger Property="ContentControl.Content">
+                                        <Trigger.Value>
+                                            <System:Int32>0</System:Int32>
+                                        </Trigger.Value>
+                                        <Setter Property="UIElement.Visibility"
+                            Value="{Binding Path=UCPar.NumberOfHoles0VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                    </Trigger>
+                                    <Trigger Property="ContentControl.Content">
+                                        <Trigger.Value>
+                                            <System:Int32>1</System:Int32>
+                                        </Trigger.Value>
+                                        <Setter Property="UIElement.Visibility"
+                            Value="{Binding Path=UCPar.NumberOfHoles1VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                    </Trigger>
+                                    <Trigger Property="ContentControl.Content">
+                                        <Trigger.Value>
+                                            <System:Int32>2</System:Int32>
+                                        </Trigger.Value>
+                                        <Setter Property="UIElement.Visibility"
+                            Value="{Binding Path=UCPar.NumberOfHoles2VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                    </Trigger>
+                                    <Trigger Property="ContentControl.Content">
+                                        <Trigger.Value>
+                                            <System:Int32>3</System:Int32>
+                                        </Trigger.Value>
+                                        <Setter Property="UIElement.Visibility"
+                            Value="{Binding Path=UCPar.NumberOfHoles3VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                    </Trigger>
+                                    <Trigger Property="ContentControl.Content">
+                                        <Trigger.Value>
+                                            <System:Int32>4</System:Int32>
+                                        </Trigger.Value>
+                                        <Setter Property="UIElement.Visibility"
+                            Value="{Binding Path=UCPar.NumberOfHoles4VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                    </Trigger>
+                                    <Trigger Property="ContentControl.Content">
+                                        <Trigger.Value>
+                                            <System:Int32>5</System:Int32>
+                                        </Trigger.Value>
+                                        <Setter Property="UIElement.Visibility"
+                            Value="{Binding Path=UCPar.NumberOfHoles5VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                    </Trigger>
+                                    <Trigger Property="ContentControl.Content">
+                                        <Trigger.Value>
+                                            <System:Int32>6</System:Int32>
+                                        </Trigger.Value>
+                                        <Setter Property="UIElement.Visibility"
+                            Value="{Binding Path=UCPar.NumberOfHoles6VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                    </Trigger>
+                                    <Trigger Property="ContentControl.Content">
+                                        <Trigger.Value>
+                                            <System:Int32>7</System:Int32>
+                                        </Trigger.Value>
+                                        <Setter Property="UIElement.Visibility"
+                            Value="{Binding Path=UCPar.NumberOfHoles7VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                    </Trigger>
+                                    <Trigger Property="ContentControl.Content">
+                                        <Trigger.Value>
+                                            <System:Int32>8</System:Int32>
+                                        </Trigger.Value>
+                                        <Setter Property="UIElement.Visibility"
+                            Value="{Binding Path=UCPar.NumberOfHoles8VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                    </Trigger>
+                                    <Trigger Property="ContentControl.Content">
+                                        <Trigger.Value>
+                                            <System:Int32>9</System:Int32>
+                                        </Trigger.Value>
+                                        <Setter Property="UIElement.Visibility"
+                            Value="{Binding Path=UCPar.NumberOfHoles9VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                    </Trigger>
+                                    <Trigger Property="ContentControl.Content">
+                                        <Trigger.Value>
+                                            <System:Int32>10</System:Int32>
+                                        </Trigger.Value>
+                                        <Setter Property="UIElement.Visibility"
+                            Value="{Binding Path=UCPar.NumberOfHoles10VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                    </Trigger>
+                                    <Trigger Property="ContentControl.Content">
+                                        <Trigger.Value>
+                                            <System:Int32>-2</System:Int32>
+                                        </Trigger.Value>
+                                        <Setter Property="UIElement.Visibility"
+                            Value="{Binding Path=UCPar.NumberOfHolesEmptySpaceVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                        <Setter Property="FrameworkElement.Height" Value="143"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ItemsControl.ItemContainerStyle>
+                    </CustomCtrlLib:ComboBox>
+                    <CustomCtrlLib:ComboBox SelectionChanged="HolesMeasuringTypeChanged" Name="MeasuringTypeCB"
+                                   Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="-1,-1,0,0" BorderThickness="1"
+                                   HorizontalAlignment="Left" VerticalAlignment="Top" MaxDropDownHeight="400" Width="109" Height="72"
+                                   DropDownSymbol="" SelectedValue="{Binding HolesView.MeasuringType, Mode=TwoWay}"
+                                   ItemsSource="{Binding Source={StaticResource dataFromEMeasuringType}}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <CustomCtrlLib:Image Height="60" Margin="4,0,0,0" HorizontalAlignment="Left" Stretch="None"
+                                      SourceFileName="{Binding Converter={StaticResource converterEMeasuringTypeToImage}}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                        <ItemsControl.ItemContainerStyle>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                <Setter Property="Control.BorderThickness" Value="1"/>
+                                <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                <Setter Property="FrameworkElement.Width" Value="109"/>
+                                <Setter Property="FrameworkElement.Height" Value="72"/>
+                                <Style.Triggers>
+                                    <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                        <Setter Property="UIElement.Visibility" Value="Collapsed"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ItemsControl.ItemContainerStyle>
+                    </CustomCtrlLib:ComboBox>
+                </StackPanel>
+            </Grid>
+            <Grid>
+                <Border BorderThickness="1" Margin="-1,-1,0,0" BorderBrush="{DynamicResource BaseBackgroundThemeBrush}"
+                Height="360"/>
+                <StackPanel Name="ShapesAndLengths" Height="288" VerticalAlignment="Top" HorizontalAlignment="Left">
+                    <StackPanel Name="ShapeAndLength1" Orientation="Horizontal"
+                      Visibility="{Binding Path=UCPar.ShapeAndLength1VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <StackPanel Name="Shapehole1and2sym" Orientation="Vertical">
+                            <CustomCtrlLib:ComboBox Name="Shapehole1CB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="-1,-1,0,0"
+                                       BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Height="72"
+                                       DropDownSymbol="" SelectedValue="{Binding HolesView.Shape1, Mode=TwoWay}"
+                                       ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                                <ItemsControl.ItemContainerStyle>
+                                    <Style TargetType="{x:Type ComboBoxItem}">
+                                        <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                        <Setter Property="Control.BorderThickness" Value="1"/>
+                                        <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                        <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                        <Setter Property="FrameworkElement.Width" Value="72"/>
+                                        <Setter Property="FrameworkElement.Height" Value="72"/>
+                                        <Style.Triggers>
+                                            <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                                <Setter Property="FrameworkElement.Width" Value="0"/>
+                                                <Setter Property="FrameworkElement.Height" Value="0"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ItemsControl.ItemContainerStyle>
+                            </CustomCtrlLib:ComboBox>
+                            <CustomCtrlLib:ComboBox Name="Shapehole2symCB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                       Margin="-1,-1,0,0" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                       Width="72" Height="72" DropDownSymbol="" SelectedValue="{Binding HolesView.Shape2, Mode=TwoWay}"
+                                       ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                       Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                                <FrameworkElement.Resources>
+                                    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                                </FrameworkElement.Resources>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                                <ItemsControl.ItemContainerStyle>
+                                    <Style TargetType="{x:Type ComboBoxItem}">
+                                        <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                        <Setter Property="Control.BorderThickness" Value="1"/>
+                                        <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                        <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                        <Setter Property="FrameworkElement.Width" Value="72"/>
+                                        <Setter Property="FrameworkElement.Height" Value="72"/>
+                                        <Style.Triggers>
+                                            <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                                <Setter Property="FrameworkElement.Width" Value="0"/>
+                                                <Setter Property="FrameworkElement.Height" Value="0"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ItemsControl.ItemContainerStyle>
+                            </CustomCtrlLib:ComboBox>
+                        </StackPanel>
+                        <StackPanel Name="TextBoxLength1">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" IsManipulationEnabled="true"
+                                      Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.TextBoxesHeight, ElementName=UserControl}"
+                                      Text="{Binding HolesView.Length1, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB1Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB1Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="ShapeAndLength2" Orientation="Horizontal"
+                      Visibility="{Binding Path=UCPar.ShapeAndLength2VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ComboBox Name="Shapehole2CB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="-1,-1,0,0"
+                                     BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Height="72"
+                                     DropDownSymbol="" SelectedValue="{Binding HolesView.Shape2, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <CustomCtrlLib:ComboBox Name="Shapehole3symCB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                     Margin="-1,-1,0,0" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                     Width="72" Height="72" DropDownSymbol="" SelectedValue="{Binding HolesView.Shape3, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <StackPanel Name="TextBoxLength2">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.HolesTextBoxBaseHeight, ElementName=UserControl}"
+                                      Text="{Binding HolesView.Length2, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB2Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB2Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"/>
+                                <Grid Margin="0,0,0,0" Background="{Binding Path=UCPar.TB2Grid2Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB2Grid2Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="ShapeAndLength3" Orientation="Horizontal"
+                      Visibility="{Binding Path=UCPar.ShapeAndLength3VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ComboBox Name="Shapehole3CB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="-1,-1,0,0"
+                                     BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Height="72"
+                                     DropDownSymbol="" SelectedValue="{Binding HolesView.Shape3, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <CustomCtrlLib:ComboBox Name="Shapehole4symCB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                     Margin="-1,-1,0,0" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                     Width="72" Height="72" DropDownSymbol="" SelectedValue="{Binding HolesView.Shape4, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <StackPanel Name="TextBoxLength3">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.HolesTextBoxBaseHeight, ElementName=UserControl}"
+                                      Text="{Binding HolesView.Length3, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB3Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB3Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB3Grid2Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB3Grid2Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,0,0" Background="{Binding Path=UCPar.TB3Grid3Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB3Grid3Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="ShapeAndLength4" Orientation="Horizontal"
+                      Visibility="{Binding Path=UCPar.ShapeAndLength4VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ComboBox Name="Shapehole4CB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="-1,-1,0,0"
+                                     BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Height="72"
+                                     DropDownSymbol="" SelectedValue="{Binding HolesView.Shape4, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <CustomCtrlLib:ComboBox Name="Shapehole5symCB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                     Margin="-1,-1,0,0" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                     Width="72" Height="72" DropDownSymbol="" SelectedValue="{Binding HolesView.Shape5, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <StackPanel Name="TextBoxLength4">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.HolesTextBoxBaseHeight, ElementName=UserControl}"
+                                      Text="{Binding HolesView.Length4, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB4Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB4Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB4Grid2Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB4Grid2Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB4Grid3Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB4Grid3Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,0,0" Background="{Binding Path=UCPar.TB4Grid4Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB4Grid4Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="ShapeAndLength5" Orientation="Horizontal"
+                      Visibility="{Binding Path=UCPar.ShapeAndLength5VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ComboBox Name="Shapehole5CB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="-1,-1,0,0"
+                                     BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Height="72"
+                                     DropDownSymbol="" SelectedValue="{Binding HolesView.Shape5, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <CustomCtrlLib:ComboBox Name="Shapehole6symCB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                     Margin="-1,-1,0,0" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                     Width="72" Height="72" DropDownSymbol="" SelectedValue="{Binding HolesView.Shape6, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <StackPanel Name="TextBoxLength5">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.HolesTextBoxBaseHeight, ElementName=UserControl}"
+                                      Text="{Binding HolesView.Length5, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB5Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB5Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB5Grid2Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB5Grid2Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB5Grid3Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB5Grid3Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB5Grid4Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB5Grid4Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,0,0" Background="{Binding Path=UCPar.TB5Grid5Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB5Grid5Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="ShapeAndLength6" Orientation="Horizontal"
+                      Visibility="{Binding Path=UCPar.ShapeAndLength6VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ComboBox Name="Shapehole6CB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="-1,-1,0,0"
+                                     BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Height="72"
+                                     DropDownSymbol="" SelectedValue="{Binding HolesView.Shape6, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <CustomCtrlLib:ComboBox Name="Shapehole7symCB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                     Margin="-1,-1,0,0" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                     Width="72" Height="72" DropDownSymbol="" SelectedValue="{Binding HolesView.Shape7, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <StackPanel Name="TextBoxLength6">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.HolesTextBoxBaseHeight, ElementName=UserControl}"
+                                      Text="{Binding HolesView.Length6, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB6Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB6Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB6Grid2Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB6Grid2Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB6Grid3Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB6Grid3Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB6Grid4Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB6Grid4Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB6Grid5Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB6Grid5Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,0,0" Background="{Binding Path=UCPar.TB6Grid6Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB6Grid6Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="ShapeAndLength7" Orientation="Horizontal"
+                      Visibility="{Binding Path=UCPar.ShapeAndLength7VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ComboBox Name="Shapehole7CB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="-1,-1,0,0"
+                                     BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Height="72"
+                                     DropDownSymbol="" SelectedValue="{Binding HolesView.Shape7, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <CustomCtrlLib:ComboBox Name="Shapehole8symCB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                     Margin="-1,-1,0,0" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                     Width="72" Height="72" DropDownSymbol="" SelectedValue="{Binding HolesView.Shape8, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <StackPanel Name="TextBoxLength7">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.HolesTextBoxBaseHeight, ElementName=UserControl}"
+                                      Text="{Binding HolesView.Length7, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB7Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB7Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB7Grid2Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB7Grid2Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB7Grid3Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB7Grid3Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB7Grid4Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB7Grid4Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB7Grid5Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB7Grid5Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB7Grid6Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB7Grid6Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,0,0" Background="{Binding Path=UCPar.TB7Grid7Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB7Grid7Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="ShapeAndLength8" Orientation="Horizontal"
+                      Visibility="{Binding Path=UCPar.ShapeAndLength8VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ComboBox Name="Shapehole8CB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="-1,-1,0,0"
+                                     BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Height="72"
+                                     DropDownSymbol="" SelectedValue="{Binding HolesView.Shape8, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <CustomCtrlLib:ComboBox Name="Shapehole9symCB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                     Margin="-1,-1,0,0" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                     Width="72" Height="72" DropDownSymbol="" SelectedValue="{Binding HolesView.Shape9, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <StackPanel Name="TextBoxLength8">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.HolesTextBoxBaseHeight, ElementName=UserControl}"
+                                      Text="{Binding HolesView.Length8, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB8Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB8Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB8Grid2Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB8Grid2Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB8Grid3Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB8Grid3Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB8Grid4Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB8Grid4Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB8Grid5Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB8Grid5Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB8Grid6Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB8Grid6Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB8Grid7Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB8Grid7Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,0,0" Background="{Binding Path=UCPar.TB8Grid8Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB8Grid8Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="ShapeAndLength9" Orientation="Horizontal"
+                      Visibility="{Binding Path=UCPar.ShapeAndLength9VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ComboBox Name="Shapehole9CB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="-1,-1,0,0"
+                                     BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Height="72"
+                                     DropDownSymbol="" SelectedValue="{Binding HolesView.Shape9, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=true}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <CustomCtrlLib:ComboBox Name="Shapehole10symCB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                     Margin="-1,-1,0,0" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top"
+                                     Width="72" Height="72" DropDownSymbol="" SelectedValue="{Binding HolesView.Shape10, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}"
+                                     Visibility="{Binding Path=UCPar.ShapeAndLengthsSymVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <StackPanel Name="TextBoxLength9">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.HolesTextBoxBaseHeight, ElementName=UserControl}"
+                                      Text="{Binding HolesView.Length9, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB9Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB9Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB9Grid2Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB9Grid2Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB9Grid3Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB9Grid3Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB9Grid4Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB9Grid4Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB9Grid5Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB9Grid5Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB9Grid6Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB9Grid6Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB9Grid7Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB9Grid7Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB9Grid8Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB9Grid8Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,0,0" Background="{Binding Path=UCPar.TB9Grid9Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB9Grid9Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="ShapeAndLength10" Orientation="Horizontal"
+                      Visibility="{Binding Path=UCPar.ShapeAndLength10VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:ComboBox Name="Shapehole10CB" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Margin="-1,-1,0,0"
+                                     BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Height="72"
+                                     DropDownSymbol="" SelectedValue="{Binding HolesView.Shape10, Mode=TwoWay}"
+                                     ItemsSource="{Binding Source={StaticResource dataFromEHoleShape}}">
+                            <FrameworkElement.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#A62E13"/>
+                            </FrameworkElement.Resources>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <CustomCtrlLib:Image Height="60" SourceFileName="{Binding Converter={StaticResource converterEHoleShapeToImageName}}"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                            <ItemsControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type ComboBoxItem}">
+                                    <Setter Property="Control.BorderBrush" Value="#204653"/>
+                                    <Setter Property="Control.BorderThickness" Value="1"/>
+                                    <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                                    <Setter Property="FrameworkElement.Width" Value="72"/>
+                                    <Setter Property="FrameworkElement.Height" Value="72"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                            <Setter Property="FrameworkElement.Width" Value="0"/>
+                                            <Setter Property="FrameworkElement.Height" Value="0"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.ItemContainerStyle>
+                        </CustomCtrlLib:ComboBox>
+                        <StackPanel Name="TextBoxLength10">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.HolesTextBoxBaseHeight, ElementName=UserControl}"
+                                      Text="{Binding HolesView.Length10, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB10Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB10Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB10Grid2Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB10Grid2Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB10Grid3Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB10Grid3Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB10Grid4Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB10Grid4Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB10Grid5Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB10Grid5Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB10Grid6Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB10Grid6Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB10Grid7Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB10Grid7Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB10Grid8Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB10Grid8Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB10Grid9Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB10Grid9Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,0,0" Background="{Binding Path=UCPar.TB10Grid10Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB10Grid10Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.HolesTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="ShapeAndLengthEmptySpace1Row" Orientation="Horizontal" Height="71"
+                      Visibility="{Binding Path=UCPar.ShapeAndLengthEmptySpace1RowVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                    <StackPanel Name="ShapeAndLengthEmptySpace2Rows" Orientation="Horizontal" Height="142"
+                      Visibility="{Binding Path=UCPar.ShapeAndLengthEmptySpace2RowsVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                    <StackPanel Name="ShapeAndLengthEmptySpace3Rows" Orientation="Horizontal" Height="213"
+                      Visibility="{Binding Path=UCPar.ShapeAndLengthEmptySpace3RowsVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                    <StackPanel Name="ShapeAndLengthEmptySpace4Rows" Orientation="Horizontal" Height="284"
+                      Visibility="{Binding Path=UCPar.ShapeAndLengthEmptySpace4RowsVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                    <StackPanel Name="ShapeAndLengthShowNextHoles" Orientation="Horizontal"
+                      Visibility="{Binding Path=UCPar.ShapeAndLengthShowNextHolesVisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                        <CustomCtrlLib:AppButton Click="ShowNextHoles" Margin="-1,-1,0,0" Height="73" BorderThickness="1,1,0,1"
+                                      BorderBrush="#204653" Background="{StaticResource Dark1BaseBackgroundThemeBrush}"
+                                      HorizontalContentAlignment="Center"
+                                      Width="{Binding Path=UCPar.HolesUserControlWidth, ElementName=UserControl}">
+                            <CustomCtrlLib:Label Content="..." VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </CustomCtrlLib:AppButton>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

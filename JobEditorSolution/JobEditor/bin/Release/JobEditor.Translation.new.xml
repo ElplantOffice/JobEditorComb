@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UiLocalisation xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemList>
+    <UiLocalisationItem>
+      <TextId>Activate</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Activate</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Back</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Back</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Cancel</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Cancel</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Centers</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Centers</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Copy</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Copy</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Desktop</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Desktop</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Down</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Down</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Files</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Files</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Go up</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Go up</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Holes</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Holes</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Import</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Import</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Job Editor</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Job Editor</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Layers</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Layers</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Load</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Load</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Log on</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Log on</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>New</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>New</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>OK</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>OK</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Paste</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Paste</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Paste All</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Paste All</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Products</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Products</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Save as</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Save as</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Slots</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Slots</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Sort by date</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Sort by date</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Sort by name</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Sort by name</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>StepLaps</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>StepLaps</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Up</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Up</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+  </ItemList>
+</UiLocalisation>

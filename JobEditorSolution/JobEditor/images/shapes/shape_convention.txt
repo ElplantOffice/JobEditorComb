@@ -1,0 +1,33 @@
+
+Name convention shape pngs
+
+
+Shape_<feature>[_<direction>]
+
+
+<feature>
+
+    VTop
+    VBottom
+    CTipLeft
+    CTipRight
+    Cut45Left
+    Cut135Left
+    Cut45Right
+    Cut135Right
+    Cut90Left
+    Cut90Right
+
+
+<direction>
+
+   
+    Always start thinking from first sheet which is cut. When no steplap, direction is ommitted.
+
+
+    Up
+    Down
+    Left
+    Right
+    
+            

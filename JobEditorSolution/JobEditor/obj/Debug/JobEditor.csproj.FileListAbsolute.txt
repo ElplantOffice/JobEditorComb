@@ -1,0 +1,416 @@
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe.config
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\JobEditor.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Communication.Pc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Communication.Plc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\CustomControlLibrary.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Models.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\ProductLib.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Services.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Services.TRL.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\System.Windows.Interactivity.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\UserControls.FileSelector.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\UserControls.Login.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Utils.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\TwinCAT.Ads.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\CustomControlLibrary.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Communication.Pc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Communication.Plc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Models.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\ProductLib.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Services.TRL.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Services.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\UserControls.FileSelector.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\UserControls.Login.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\Utils.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\System.Windows.Interactivity.xml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\Views\StackerUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\App.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\MainWindow.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\Views\CentersUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\Views\HolesUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\Views\SlotsUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\Views\StackerUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\Views\StepLapsUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\Views\TipCutsUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\App.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\JobEditor_MarkupCompile.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\JobEditor_MarkupCompile.lref
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\MainWindow.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\Views\CentersUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\Views\HolesUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\Views\SlotsUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\Views\StepLapsUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\Views\TipCutsUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\JobEditor.g.resources
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\JobEditor.Properties.Resources.resources
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.GenerateResource.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\JobEditor.exe
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\JobEditor.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csprojAssemblyReference.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\data\JobEditor.Translation.new.xml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor\JobEditorSolution\JobEditor\bin\Debug\data\JobEditor.Translation.xml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\data\JobEditor.Translation.new.xml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\data\JobEditor.Translation.xml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe.config
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\JobEditor.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Communication.Pc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Communication.Plc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\CustomControlLibrary.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Models.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\ProductLib.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Services.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Services.TRL.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\System.Windows.Interactivity.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\UserControls.FileSelector.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\UserControls.Login.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Utils.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Communication.Pc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\CustomControlLibrary.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Communication.Plc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Models.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\ProductLib.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Services.TRL.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Services.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\UserControls.FileSelector.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\UserControls.Login.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Utils.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\System.Windows.Interactivity.xml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csprojAssemblyReference.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\StackerUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\App.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\MainWindow.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\CentersUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\HolesUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\SlotsUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\StackerUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\StepLapsUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\TipCutsUserControl.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\App.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor_MarkupCompile.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor_MarkupCompile.lref
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\MainWindow.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\CentersUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\HolesUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\SlotsUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\StepLapsUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\TipCutsUserControl.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.g.resources
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.Properties.Resources.resources
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.GenerateResource.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.exe
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\TwinCAT.Ads.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe.manifest
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\JobEditor.application
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.TrustInfo.xml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.exe.manifest
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.application
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\data\JobEditor.Translation.xml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe.config
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe.manifest
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\JobEditor.application
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\JobEditor.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Communication.Pc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Communication.Plc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Models.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\ProductLib.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Services.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Services.TRL.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\TwinCAT.Ads.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\UserControls.FileSelector.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\UserControls.Login.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Utils.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Communication.Pc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Communication.Plc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Models.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\ProductLib.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Services.TRL.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Services.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\UserControls.FileSelector.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\UserControls.Login.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\Utils.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\System.Windows.Interactivity.xml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\de\System.Windows.Interactivity.resources.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\en\System.Windows.Interactivity.resources.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\es\System.Windows.Interactivity.resources.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\it\System.Windows.Interactivity.resources.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\StackerUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\App.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\MainWindow.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\CentersUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\HolesUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\SlotsUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\StackerUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\StepLapsUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\TipCutsUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\App.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor_MarkupCompile.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor_MarkupCompile.lref
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\MainWindow.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\CentersUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\HolesUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\SlotsUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\StepLapsUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\Views\TipCutsUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.g.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.Properties.Resources.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.GenerateResource.Cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.TrustInfo.xml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.exe.manifest
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.application
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.exe
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\JobEditor\obj\Debug\JobEditor.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\data\JobEditor.Translation.xml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe.config
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe.manifest
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\JobEditor.application
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\JobEditor.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Communication.Pc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Communication.Plc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Microsoft.Expression.Interactions.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Models.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\ProductLib.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Services.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Services.TRL.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\System.Windows.Interactivity.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\TwinCAT.Ads.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\UserControls.FileSelector.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\UserControls.Login.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Utils.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Communication.Pc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Communication.Plc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Models.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\ProductLib.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Services.TRL.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Services.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\UserControls.FileSelector.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\UserControls.Login.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Utils.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\Microsoft.Expression.Interactions.xml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\System.Windows.Interactivity.xml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\bin\Debug\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\Views\StackerUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\App.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\MainWindow.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\Views\CentersUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\Views\HolesUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\Views\SlotsUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\Views\StackerUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\Views\StepLapsUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\Views\TipCutsUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\App.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\JobEditor_MarkupCompile.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\JobEditor_MarkupCompile.lref
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\MainWindow.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\Views\CentersUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\Views\HolesUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\Views\SlotsUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\Views\StepLapsUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\Views\TipCutsUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\JobEditor.g.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\JobEditor.Properties.Resources.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.GenerateResource.Cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\JobEditor.TrustInfo.xml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\JobEditor.exe.manifest
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\JobEditor.application
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\JobEditor.exe
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\JobEditor\obj\Debug\JobEditor.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\data\JobEditor.Translation.xml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe.config
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe.manifest
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\JobEditor.application
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\JobEditor.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Communication.Pc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Communication.Plc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Microsoft.Expression.Interactions.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Models.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\ProductLib.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Services.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Services.TRL.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\System.Windows.Interactivity.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\TwinCAT.Ads.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\UserControls.FileSelector.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\UserControls.Login.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Utils.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Communication.Pc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Communication.Plc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Models.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\ProductLib.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Services.TRL.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Services.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\UserControls.FileSelector.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\UserControls.Login.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Utils.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\Microsoft.Expression.Interactions.xml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\System.Windows.Interactivity.xml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\bin\Debug\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\Views\StackerUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\App.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\MainWindow.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\Views\CentersUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\Views\HolesUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\Views\SlotsUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\Views\StackerUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\Views\StepLapsUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\Views\TipCutsUserControl.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\App.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\JobEditor_MarkupCompile.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\JobEditor_MarkupCompile.lref
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\MainWindow.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\Views\CentersUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\Views\HolesUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\Views\SlotsUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\Views\StepLapsUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\Views\TipCutsUserControl.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\JobEditor.g.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\JobEditor.Properties.Resources.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.GenerateResource.Cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\JobEditor.TrustInfo.xml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\JobEditor.exe.manifest
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\JobEditor.application
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\JobEditor.exe
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\JobEditor\obj\Debug\JobEditor.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\data\JobEditor.Translation.xml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe.config
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe.manifest
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\JobEditor.application
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\JobEditor.exe
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\JobEditor.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Communication.Pc.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Communication.Plc.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\CustomControlLibrary.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Messages.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Models.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Patterns.EventAggregator.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\ProductLib.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Services.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Services.TRL.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\System.Windows.Interactivity.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\TwinCAT.Ads.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\UserControls.FileSelector.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\UserControls.Login.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Utils.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\NetSerializer.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Communication.Pc.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\CustomControlLibrary.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Communication.Plc.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Messages.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Models.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Patterns.EventAggregator.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\ProductLib.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Services.TRL.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Services.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\UserControls.FileSelector.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\UserControls.Login.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Utils.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\System.Windows.Interactivity.xml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\bin\Debug\NetSerializer.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.AssemblyReference.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\Views\StackerUserControl.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\App.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\MainWindow.g.cs
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\Views\CentersUserControl.g.cs
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\Views\HolesUserControl.g.cs
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\Views\SlotsUserControl.g.cs
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\Views\StackerUserControl.g.cs
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\Views\StepLapsUserControl.g.cs
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\Views\TipCutsUserControl.g.cs
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\App.g.cs
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor_MarkupCompile.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor_MarkupCompile.lref
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\MainWindow.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\Views\CentersUserControl.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\Views\HolesUserControl.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\Views\SlotsUserControl.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\Views\StepLapsUserControl.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\Views\TipCutsUserControl.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor.g.resources
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor.Properties.Resources.resources
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.GenerateResource.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.CoreCompileInputs.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor.TrustInfo.xml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor.exe.manifest
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor.application
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor.csproj.CopyComplete
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor.exe
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\JobEditor\obj\Debug\JobEditor.pdb

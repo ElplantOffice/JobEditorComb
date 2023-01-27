@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DefaultPar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="d:\ScmWorkspaces\Res.Trl.JobEditor\Data\DefaultPar.xsd">
+  <StepLapsNumberOfSteps_1>-1</StepLapsNumberOfSteps_1>
+  <StepLapsNumberOfSteps_2>2</StepLapsNumberOfSteps_2>
+  <StepLapsNumberOfSteps_3>-1</StepLapsNumberOfSteps_3>
+  <StepLapsNumberOfSteps_4>5</StepLapsNumberOfSteps_4>
+  <StepLapsNumberOfSame_1>1</StepLapsNumberOfSame_1>
+  <StepLapsNumberOfSame_2>3</StepLapsNumberOfSame_2>
+  <StepLapsNumberOfSame_3>5</StepLapsNumberOfSame_3>
+  <StepLapsNumberOfSame_4>7</StepLapsNumberOfSame_4>
+  <StepLapsValue_1>0</StepLapsValue_1>
+  <StepLapsValue_2>6</StepLapsValue_2>
+  <StepLapsValue_3>7</StepLapsValue_3>
+  <StepLapsValue_4>10</StepLapsValue_4>
+  <TipCutsHeight_1>3</TipCutsHeight_1>
+  <TipCutsHeight_2>5</TipCutsHeight_2>
+  <TipCutsHeight_3>10</TipCutsHeight_3>
+  <TipCutsHeight_4>15</TipCutsHeight_4>
+  <TipCutsOverCut_1>2</TipCutsOverCut_1>
+  <TipCutsOverCut_2>4</TipCutsOverCut_2>
+  <TipCutsOverCut_3>5</TipCutsOverCut_3>
+  <TipCutsOverCut_4>7</TipCutsOverCut_4>
+  <HolesYOffset_1>0</HolesYOffset_1>
+  <HolesYOffset_2>1</HolesYOffset_2>
+  <HolesYOffset_3>3</HolesYOffset_3>
+  <HolesYOffset_4>5</HolesYOffset_4>
+  <SlotsYOffset_1>1</SlotsYOffset_1>
+  <SlotsYOffset_2>1.5</SlotsYOffset_2>
+  <SlotsYOffset_3>3</SlotsYOffset_3>
+  <SlotsYOffset_4>3.8</SlotsYOffset_4>
+  <CentersOverCut_1>0</CentersOverCut_1>
+  <CentersOverCut_2>6.5</CentersOverCut_2>
+  <CentersOverCut_3>7</CentersOverCut_3>
+  <CentersOverCut_4>8</CentersOverCut_4>
+  <CentersVOffset_1>1</CentersVOffset_1>
+  <CentersVOffset_2>2</CentersVOffset_2>
+  <CentersVOffset_3>2.5</CentersVOffset_3>
+  <CentersVOffset_4>3</CentersVOffset_4>
+  <CentersCTipOffset_1>1</CentersCTipOffset_1>
+  <CentersCTipOffset_2>3</CentersCTipOffset_2>
+  <CentersCTipOffset_3>5</CentersCTipOffset_3>
+  <CentersCTipOffset_4>7</CentersCTipOffset_4>
+  <NumberOfLayers_1>1</NumberOfLayers_1>
+  <NumberOfLayers_2>3</NumberOfLayers_2>
+  <MaterialThickness>0.27</MaterialThickness>
+</DefaultPar>

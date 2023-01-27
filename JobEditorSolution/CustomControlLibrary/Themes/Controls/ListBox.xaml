@@ -1,0 +1,49 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:System="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:CustomControlLibrary">
+  <ResourceDictionary.MergedDictionaries>
+    <ResourceDictionary Source="/CustomControlLibrary;component/Themes/General/Colors.xaml"/>
+    <ResourceDictionary Source="/CustomControlLibrary;component/Themes/General/Fonts.xaml"/>
+  </ResourceDictionary.MergedDictionaries>
+    <Style TargetType="{x:Type local:ListBox}">
+    <Setter Property="Control.Background" Value="{DynamicResource BaseBackgroundThemeBrush}"/>
+    <Setter Property="Control.BorderBrush" Value="{DynamicResource ListBoxBorderThemeBrush}"/>
+    <Setter Property="Control.BorderThickness" Value="0"/>
+    <Setter Property="Control.Foreground" Value="{DynamicResource ListBoxItemForegroundThemeBrush}"/>
+    <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
+    <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+    <Setter Property="ScrollViewer.CanContentScroll" Value="true"/>
+    <Setter Property="ScrollViewer.PanningMode" Value="Both"/>
+    <Setter Property="Stylus.IsFlicksEnabled" Value="false"/>
+    <Setter Property="Control.VerticalContentAlignment" Value="Center"/>
+    <Setter Property="Control.Padding" Value="0,0,0,0"/>
+    <Setter Property="Control.Template">
+      <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:ListBox}">
+          <Border x:Name="Bd" BorderBrush="{TemplateBinding Control.BorderBrush}"
+                  BorderThickness="{TemplateBinding Control.BorderThickness}"
+                  Background="{TemplateBinding Control.Background}" Padding="0" SnapsToDevicePixels="true">
+            <local:ScrollViewer Focusable="false" Padding="{TemplateBinding Control.Padding}"
+                                Background="{TemplateBinding Control.Background}">
+              <ItemsPresenter SnapsToDevicePixels="{TemplateBinding UIElement.SnapsToDevicePixels}"/>
+            </local:ScrollViewer>
+          </Border>
+          <ControlTemplate.Triggers>
+            <Trigger Property="UIElement.IsEnabled" Value="false">
+              <Setter TargetName="Bd" Value="{DynamicResource ListBoxDisabledForegroundThemeBrush}"
+                      Property="Border.Background"/>
+            </Trigger>
+            <MultiTrigger>
+              <MultiTrigger.Conditions>
+                <Condition Property="ItemsControl.IsGrouping" Value="true"/>
+                <Condition Property="VirtualizingPanel.IsVirtualizingWhenGrouping" Value="false"/>
+              </MultiTrigger.Conditions>
+              <Setter Property="ScrollViewer.CanContentScroll" Value="false"/>
+            </MultiTrigger>
+          </ControlTemplate.Triggers>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+</ResourceDictionary>

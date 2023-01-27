@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SequenceMaker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <CutSequences>
+
+    <CutSequence Name="001">
+      <Shapes>
+        <Shape Drawing = "S90|S90">
+          <ShapeParts>
+            <ShapePart Feature="Cut90" />
+            <ShapePart Feature="Cut90" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>
+
+    <!--<CutSequence Name="001-001">
+      <Shapes>
+        <Shape Drawing = "S90|S90">
+          <ShapeParts>
+            <ShapePart Feature="Cut90" />
+            <ShapePart Feature="Cut90" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "S90|S90">
+          <ShapeParts>
+            <ShapePart Feature="Cut90" />
+            <ShapePart Feature="Cut90" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>-->
+
+    <CutSequence Name="002-002">
+      <Shapes>
+        <Shape Drawing = "S90|S135">
+          <ShapeParts>
+            <ShapePart Feature="Cut90" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "S135|S90">
+          <ShapeParts>
+            <ShapePart Feature="Cut135" />
+            <ShapePart Feature="Cut90" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>
+
+    <!--<CutSequence Name="002-011">
+      <Shapes>
+        <Shape Drawing = "S90|S135">
+          <ShapeParts>
+            <ShapePart Feature="Cut90" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "CF|S90">
+          <ShapeParts>
+            <ShapePart Feature="CLeft" />
+            <ShapePart Feature="Cut90" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>-->
+
+    <CutSequence Name="003">
+      <Shapes>
+        <Shape Drawing = "S45|S45">
+          <ShapeParts>
+            <ShapePart Feature="Cut45" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>
+
+    <!--<CutSequence Name="003-003">
+      <Shapes>
+        <Shape Drawing = "S45|S45">
+          <ShapeParts>
+            <ShapePart Feature="Cut45" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "S45|S45">
+          <ShapeParts>
+            <ShapePart Feature="Cut45" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>-->
+
+    <CutSequence Name="004-004">
+      <Shapes>
+        <Shape Drawing = "S45|S135">
+          <ShapeParts>
+            <ShapePart Feature="Cut45" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "S135|S45">
+          <ShapeParts>
+            <ShapePart Feature="Cut135" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>
+
+    <CutSequence Name="006">
+      <Shapes>
+        <Shape Drawing = "CF|CB">
+          <ShapeParts>
+            <ShapePart Feature="CLeft" />
+            <ShapePart Feature="CRight" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>
+
+    <!--<CutSequence Name="006-006">
+      <Shapes>
+        <Shape Drawing = "CF|CB">
+          <ShapeParts>
+            <ShapePart Feature="CLeft" />
+            <ShapePart Feature="CRight" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "CF|CB">
+          <ShapeParts>
+            <ShapePart Feature="CLeft" />
+            <ShapePart Feature="CRight" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>-->
+
+    <CutSequence Name="007">
+      <Shapes>
+        <Shape Drawing = "CF|S45">
+          <ShapeParts>
+            <ShapePart Feature="CLeft" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>
+
+    <!--<CutSequence Name="007-007">
+      <Shapes>
+        <Shape Drawing = "CF|S45">
+          <ShapeParts>
+            <ShapePart Feature="CLeft" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "CF|S45">
+          <ShapeParts>
+            <ShapePart Feature="CLeft" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>-->
+
+    <!--<CutSequence Name="008">
+      <Shapes>
+        <Shape Drawing = "CF|S135">
+          <ShapeParts>
+            <ShapePart Feature="CLeft" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>-->
+
+    <!--<CutSequence Name="008-008">
+      <Shapes>
+        <Shape Drawing = "CF|S135">
+          <ShapeParts>
+            <ShapePart Feature="CLeft" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "CF|S135">
+          <ShapeParts>
+            <ShapePart Feature="CLeft" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>-->
+
+    <!--<CutSequence Name="008-004">
+      <Shapes>
+        <Shape Drawing = "CF|S135">
+          <ShapeParts>
+            <ShapePart Feature="CLeft" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "S135|S45">
+          <ShapeParts>
+            <ShapePart Feature="Cut135" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>-->
+
+
+    <CutSequence Name="2004-004">
+      <Shapes>
+        <Shape Drawing = "S45|VB|S135">
+          <ShapeParts>
+            <ShapePart Feature="Cut45" />
+            <ShapePart Feature="VTop" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "S135|S45">
+          <ShapeParts>
+            <ShapePart Feature="Cut135" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>
+
+    <CutSequence Name="2004-2004">
+      <Shapes>
+        <Shape Drawing = "S45|VB|S135">
+          <ShapeParts>
+            <ShapePart Feature="Cut45" />
+            <ShapePart Feature="VTop" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "S135|VF|S45">
+          <ShapeParts>
+            <ShapePart Feature="Cut135" />
+            <ShapePart Feature="VBottom" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>
+
+   <CutSequence Name="2004.2-004">
+      <Shapes>
+        <Shape Drawing = "S45|VB|VB|S135">
+          <ShapeParts>
+            <ShapePart Feature="Cut45" />
+            <ShapePart Feature="VTop" />
+            <ShapePart Feature="VTop" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "S135|S45">
+          <ShapeParts>
+            <ShapePart Feature="Cut135" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>
+
+    <CutSequence Name="2004.3-004">
+      <Shapes>
+        <Shape Drawing = "S45|VB|VB|VB|S135">
+          <ShapeParts>
+            <ShapePart Feature="Cut45" />
+            <ShapePart Feature="VTop" />
+            <ShapePart Feature="VTop" />
+            <ShapePart Feature="VTop" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "S135|S45">
+          <ShapeParts>
+            <ShapePart Feature="Cut135" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>
+
+    <!--<CutSequence Name="2004-004-2004-004-006">
+      <Shapes>
+        <Shape Drawing = "S45|VB|S135">
+          <ShapeParts>
+            <ShapePart Feature="Cut45" />
+            <ShapePart Feature="VTop" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "S135|S45">
+          <ShapeParts>
+            <ShapePart Feature="Cut135" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "S45|VB|S135">
+          <ShapeParts>
+            <ShapePart Feature="Cut45" />
+            <ShapePart Feature="VTop" />
+            <ShapePart Feature="Cut135" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "S135|S45">
+          <ShapeParts>
+            <ShapePart Feature="Cut135" />
+            <ShapePart Feature="Cut45" />
+          </ShapeParts>
+        </Shape>
+        <Shape Drawing = "CF|CB">
+          <ShapeParts>
+            <ShapePart Feature="CLeft" />
+            <ShapePart Feature="CRight" />
+          </ShapeParts>
+        </Shape>
+      </Shapes>
+    </CutSequence>-->
+    
+  </CutSequences>
+  
+</SequenceMaker>

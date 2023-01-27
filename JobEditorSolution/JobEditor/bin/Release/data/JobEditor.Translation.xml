@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UiLocalisation xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemList>
+    <UiLocalisationItem>
+      <TextId>Activate</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Activate</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Activate</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>เริ่มการทำงาน</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Back</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Back</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Back</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>กลับ</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Cancel</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Cancel</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Cancel</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>ยกเลิก</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Centers</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Centers</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Centers</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>ศูนย์กลาง</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Copy</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Copy</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Copy</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>สำเนา</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Desktop</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Desktop</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Desktop</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>เดสก์ท๊อป</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Down</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Down</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Down</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>ลง</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Files</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Files</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Files</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>แฟ้ม</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Go up</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Go up</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Go up</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>ขึ้น</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Holes</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Holes</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Holes</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>รู</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Import</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Import</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Import</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>นำเข้า</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Job Editor</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Job Editor</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Job Editor</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>เครื่องมือแก้ไขงาน</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Layers</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Layers</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Layers</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>แบ่งชั้น</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Load</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Load</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Load</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>โหลด</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Log off</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Log off</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Log off</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>จบการทำงาน</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Log on</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Log on</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Log on</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>เริ่มการทำงาน</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>New</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>New</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>New</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>หน้าใหม่</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>OK</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>OK</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>OK</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>ตกลง</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Paste</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Paste</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Paste</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>วาง</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Paste All</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Paste All</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Paste All</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>วางทั้งหมด</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Products</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Products</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Products</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>ชิ้นงาน</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Save as</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Save as</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Save as</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>บันทึกเป็น</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Sequences</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Sequences</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Sequences</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>ลำดับ</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Slots</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Slots</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Slots</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>ข่องใส่</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Sort by date</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Sort by date</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Sort by date</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>เรียงตามวันที่</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Sort by name</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Sort by name</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Sort by name</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>เรียงตามชื่อ</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Steplaps</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Steplaps</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Steplaps</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>เสต็ปแลป</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>StepLaps</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>StepLaps</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>StepLaps</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>การเรียงแบบเยื้อง</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Tipcuts</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Tipcuts</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Tipcuts</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>ตัดส่วนเกิน</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Up</TextId>
+      <LocalisationId>1033</LocalisationId>
+      <LanguageName>English (United States)</LanguageName>
+      <Text>Up</Text>
+      <Used>true</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+    <UiLocalisationItem>
+      <TextId>Up</TextId>
+      <LocalisationId>1054</LocalisationId>
+      <LanguageName>Thai (Thailand)</LanguageName>
+      <Text>ขึ้น</Text>
+      <Used>false</Used>
+      <New>true</New>
+    </UiLocalisationItem>
+  </ItemList>
+</UiLocalisation>

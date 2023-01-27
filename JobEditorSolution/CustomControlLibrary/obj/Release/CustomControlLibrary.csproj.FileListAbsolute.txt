@@ -1,0 +1,485 @@
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csprojAssemblyReference.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Colors.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.lref
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\System.Windows.Interactivity.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Models.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\TwinCAT.Ads.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\System.Windows.Interactivity.xml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Models.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.pdb
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\de\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\en\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\es\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\fr\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\it\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\ja\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\ko\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBar.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBarItem.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\appbutton.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\BulletButton.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Button.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBox.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBoxItem.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\HeaderLabel.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ImageButton.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Label.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBox.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBoxItem.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ProgressRing.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\RadioButton.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Scrollbar.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ScrollViewer.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SqRadioButton.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SubHeaderLabel.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TextBox.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Thumb.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TileButton.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TilePanel.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ToggleButton.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\toggleswitchbutton.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Window.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Fonts.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Generic.baml
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.g.resources
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CoreCompileInputs.cache
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CopyComplete
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.dll
+D:\El PLant\DOK Job Editor Priprema\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Models.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\TwinCAT.Ads.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\System.Windows.Interactivity.xml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Models.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.pdb
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\de\System.Windows.Interactivity.resources.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\en\System.Windows.Interactivity.resources.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\es\System.Windows.Interactivity.resources.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\it\System.Windows.Interactivity.resources.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Colors.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.cache
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.lref
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBar.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBarItem.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\appbutton.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\BulletButton.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Button.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBox.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBoxItem.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\HeaderLabel.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ImageButton.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Label.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBox.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBoxItem.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ProgressRing.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\RadioButton.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Scrollbar.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ScrollViewer.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SqRadioButton.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SubHeaderLabel.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TextBox.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Thumb.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TileButton.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TilePanel.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ToggleButton.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\toggleswitchbutton.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Window.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Fonts.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Generic.baml
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.g.resources
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.dll
+C:\Users\Aleksandar\Google Drive\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Models.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\TwinCAT.Ads.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Models.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Colors.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.lref
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBar.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBarItem.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\appbutton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\BulletButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Button.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBox.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBoxItem.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\HeaderLabel.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ImageButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Label.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBox.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBoxItem.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ProgressRing.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\RadioButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Scrollbar.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ScrollViewer.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SqRadioButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SubHeaderLabel.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TextBox.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Thumb.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TileButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TilePanel.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ToggleButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\toggleswitchbutton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Window.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Fonts.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Generic.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.g.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v1\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\Models.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\TwinCAT.Ads.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\Models.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Colors.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.lref
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBar.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBarItem.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\appbutton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\BulletButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Button.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBox.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBoxItem.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\HeaderLabel.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ImageButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Label.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBox.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBoxItem.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ProgressRing.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\RadioButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Scrollbar.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ScrollViewer.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SqRadioButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SubHeaderLabel.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TextBox.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Thumb.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TileButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TilePanel.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ToggleButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\toggleswitchbutton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Window.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Fonts.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Generic.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.g.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v2\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Models.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\TwinCAT.Ads.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Models.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.pdb
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csprojResolveAssemblyReference.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Colors.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.lref
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBar.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBarItem.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\appbutton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\BulletButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Button.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBox.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBoxItem.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\HeaderLabel.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ImageButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Label.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBox.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBoxItem.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ProgressRing.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\RadioButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Scrollbar.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ScrollViewer.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SqRadioButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SubHeaderLabel.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TextBox.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Thumb.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TileButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TilePanel.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ToggleButton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\toggleswitchbutton.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Window.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Fonts.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Generic.baml
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.g.resources
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CoreCompileInputs.cache
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.dll
+F:\ACTUAL TRL PROJECT\JeyBee India - new control\Dok\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Models.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\TwinCAT.Ads.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Models.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.pdb
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csprojAssemblyReference.cache
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Colors.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.cache
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.lref
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBar.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBarItem.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\appbutton.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\BulletButton.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Button.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBox.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBoxItem.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\HeaderLabel.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ImageButton.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Label.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBox.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBoxItem.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ProgressRing.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\RadioButton.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Scrollbar.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ScrollViewer.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SqRadioButton.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SubHeaderLabel.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TextBox.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Thumb.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TileButton.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TilePanel.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ToggleButton.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\toggleswitchbutton.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Window.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Fonts.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Generic.baml
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.g.resources
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CoreCompileInputs.cache
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CopyComplete
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.dll
+F:\Actual PLC projects\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Models.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\TwinCAT.Ads.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Models.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.pdb
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csprojAssemblyReference.cache
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Colors.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.cache
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.lref
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBar.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBarItem.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\appbutton.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\BulletButton.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Button.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBox.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBoxItem.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\HeaderLabel.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ImageButton.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Label.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBox.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBoxItem.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ProgressRing.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\RadioButton.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Scrollbar.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ScrollViewer.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SqRadioButton.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SubHeaderLabel.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TextBox.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Thumb.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TileButton.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TilePanel.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ToggleButton.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\toggleswitchbutton.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Window.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Fonts.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Generic.baml
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.g.resources
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CoreCompileInputs.cache
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CopyComplete
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.dll
+E:\ProjectsInProgress\TRL Juzna Afrika - Assema\ELPLANT folder i JobEditorSourceCode_28022019\v3.original.removeSoenen.refactor.v3\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Models.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\TwinCAT.Ads.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Models.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.pdb
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Colors.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.cache
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.lref
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBar.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBarItem.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\appbutton.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\BulletButton.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Button.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBox.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBoxItem.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\HeaderLabel.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ImageButton.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Label.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBox.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBoxItem.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ProgressRing.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\RadioButton.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Scrollbar.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ScrollViewer.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SqRadioButton.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SubHeaderLabel.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TextBox.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Thumb.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TileButton.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TilePanel.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ToggleButton.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\toggleswitchbutton.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Window.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Fonts.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Generic.baml
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.g.resources
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CopyComplete
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.dll
+C:\Users\DELL\Desktop\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\CustomControlLibrary.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Models.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\TwinCAT.Ads.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Patterns.EventAggregator.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Utils.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Messages.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\NetSerializer.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Models.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\bin\Release\Communication.Plc.pdb
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.AssemblyReference.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Colors.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary_MarkupCompile.lref
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBar.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\AppBarItem.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\appbutton.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\BulletButton.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Button.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBox.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ComboBoxItem.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\HeaderLabel.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ImageButton.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Label.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBox.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ListBoxItem.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ProgressRing.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\RadioButton.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Scrollbar.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ScrollViewer.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SqRadioButton.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\SubHeaderLabel.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TextBox.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Thumb.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TileButton.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\TilePanel.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\ToggleButton.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\toggleswitchbutton.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Controls\Window.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\General\Fonts.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\Themes\Generic.baml
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.g.resources
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CoreCompileInputs.cache
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.csproj.CopyComplete
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.dll
+D:\El PLant\Latest\JobEditorCode\JobEditorSolution\CustomControlLibrary\obj\Release\CustomControlLibrary.pdb

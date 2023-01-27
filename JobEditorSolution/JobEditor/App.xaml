@@ -1,0 +1,89 @@
+﻿<Application x:Class="JobEditor.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:CustomControlLib="clr-namespace:CustomControlLibrary;assembly=CustomControlLibrary"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/CustomControlLibrary;component/Themes/General/Colors.xaml"/>
+                <ResourceDictionary Source="/CustomControlLibrary;component/Themes/General/Fonts.xaml"/>
+                <ResourceDictionary Source="/UserControls.FileSelector;component/Colors.xaml"/>
+                <ResourceDictionary Source="/UserControls.Login;component/Colors.xaml"/>
+                <ResourceDictionary>
+                    <CustomControlLib:ModifyColor x:Key="ModifyColor"/>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+            <SolidColorBrush x:Key="BaseBackgroundThemeBrush" Color="#204653"/>
+            <sys:Double x:Key="Normal">1</sys:Double>
+            <sys:Double x:Key="Dark1">0.85</sys:Double>
+            <sys:Double x:Key="Dark2">0.75</sys:Double>
+            <sys:Double x:Key="Dark3">0.65</sys:Double>
+            <SolidColorBrush x:Key="NormalBaseBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource BaseBackgroundThemeBrush}, Converter={StaticResource ModifyColor}, ConverterParameter={StaticResource Normal}}"/>
+            <SolidColorBrush x:Key="Dark1BaseBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource BaseBackgroundThemeBrush}, Converter={StaticResource ModifyColor}, ConverterParameter={StaticResource Dark1}}"/>
+            <SolidColorBrush x:Key="Dark2BaseBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource BaseBackgroundThemeBrush}, Converter={StaticResource ModifyColor}, ConverterParameter={StaticResource Dark2}}"/>
+            <SolidColorBrush x:Key="Dark3BaseBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource BaseBackgroundThemeBrush}, Converter={StaticResource ModifyColor}, ConverterParameter={StaticResource Dark3}}"/>
+            <SolidColorBrush x:Key="FileSelectorFileButtonSelectedBackgroundThemeBrush" Color="#3FFFFFFF"/>
+            <SolidColorBrush x:Key="FileSelectorFileButtonSelectedBorderThemeBrush" Color="#7FFFFFFF"/>
+            <SolidColorBrush x:Key="FileSelectorFileButtonBorderThemeBrush" Color="#00000000"/>
+            <SolidColorBrush x:Key="FileSelectorFileButtonBackgroundThemeBrush" Color="#00000000"/>
+            <SolidColorBrush x:Key="FileSelectorFolderButtonBorderThemeBrush" Color="#00000000"/>
+            <SolidColorBrush x:Key="FileSelectorFolderButtonBackgroundThemeBrush" Color="#3F000000"/>
+            <SolidColorBrush x:Key="FileSelectorFolderButtonSelectedBackgroundThemeBrush" Color="#3FFFFFFF"/>
+            <SolidColorBrush x:Key="FileSelectorFolderButtonSelectedBorderThemeBrush" Color="#7FFFFFFF"/>
+            <SolidColorBrush x:Key="ComboBoxItemBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource Dark3BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="ComboBoxItemBorderThemeBrush"
+                       Color="{Binding Color, Source={StaticResource BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="ComboBoxBorderThemeBrush"
+                       Color="{Binding Color, Source={StaticResource BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="ComboBoxSelectedItemBackgroundThemeBrush" Color="#204653"/>
+            <SolidColorBrush x:Key="ComboBoxPointerOverBackgroundThemeBrush" Color="#00FFFFFF"/>
+            <SolidColorBrush x:Key="ComboBoxCheckedBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource Dark2BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="ComboBoxPressedBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource Dark2BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="ComboBoxDisabledBorderThemeBrush"
+                       Color="{Binding Color, Source={StaticResource BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="AppBarBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource Dark1BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="RadioButtonBackgroundThemeBrush" Color="#00FFFFFF"/>
+            <SolidColorBrush x:Key="RadioButtonBorderThemeBrush"
+                       Color="{Binding Color, Source={StaticResource BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="RadioButtonForegroundThemeBrush" Color="#FFFFFFFF"/>
+            <SolidColorBrush x:Key="RadioButtonPointerOverBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource Dark2BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="RadioButtonPressedBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource Dark2BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="RadioButtonPressedForegroundThemeBrush" Color="#FFFFFFFF"/>
+            <SolidColorBrush x:Key="RadioButtonDisabledForegroundThemeBrush" Color="#FFFFFFFF"/>
+            <SolidColorBrush x:Key="RadioButtonDisabledBackgroundThemeBrush" Color="#15FFFFFF"/>
+            <SolidColorBrush x:Key="RadioButtonDisabledBorderThemeBrush" Color="#15FFFFFF"/>
+            <SolidColorBrush x:Key="RadioButtonCheckedBackgroundThemeBrush" Color="#FFFFFFFF"/>
+            <SolidColorBrush x:Key="RadioButtonCheckedForegroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource Dark1BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="RadioButtonCheckedBorderThemeBrush"
+                       Color="{Binding Color, Source={StaticResource BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="TextBoxForegroundThemeBrush" Color="#FFFFFFFF"/>
+            <SolidColorBrush x:Key="TextBoxBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource Dark3BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="TextBoxBorderThemeBrush"
+                       Color="{Binding Color, Source={StaticResource BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="TextBoxSelectionBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="TextBoxPointerOverBackgroundThemeBrush"
+                       Color="{Binding Color, Source={StaticResource Dark2BaseBackgroundThemeBrush}}"/>
+            <SolidColorBrush x:Key="ShapesTextBoxDistances1" Color="#FDC823"/>
+            <SolidColorBrush x:Key="ShapesTextBoxDistances2" Color="#94BA50"/>
+            <SolidColorBrush x:Key="ShapesTextBoxDistances3" Color="#5386AD"/>
+            <SolidColorBrush x:Key="ShapesTextBoxDistances4" Color="#FF69B4"/>
+            <SolidColorBrush x:Key="AnotationLines" Color="#696969"/>
+            <SolidColorBrush x:Key="ShapeFillColor" Color="#FFFFFF"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

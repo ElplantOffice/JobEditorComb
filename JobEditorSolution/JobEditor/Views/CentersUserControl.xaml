@@ -1,0 +1,174 @@
+﻿<UserControl x:Class="JobEditor.Views.CentersUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
+             xmlns:CustomCtrlLib="clr-namespace:CustomControlLibrary;assembly=CustomControlLibrary"
+             xmlns:ProductLib="clr-namespace:ProductLib;assembly=ProductLib"
+             xmlns:Utils="clr-namespace:Utils;assembly=Utils"
+             xmlns:Local="clr-namespace:JobEditor"
+             Loaded="LoadCentersUserControl" Unloaded="Dispose" x:Name="UserControl" MinWidth="216"
+             Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Height="440" Margin="0,0,4,0"
+             Width="{Binding Path=UCPar.CentersUserControlWidth, ElementName=UserControl}">
+    <FrameworkElement.Resources>
+        <ObjectDataProvider x:Key="dataFromEMeasuringType" MethodName="GetValues" ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="ProductLib:EMeasuringType"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <Local:ConverterEMeasuringTypeToImage x:Key="converterEMeasuringTypeToImage"/>
+        <Utils:ConverterIntToString x:Key="converterIntToString"/>
+        <Utils:BoolToVisibility x:Key="BoolToVisibility"/>
+        <Utils:ConverterDoubleToString x:Key="converterDoubleToString"/>
+        <x:Array x:Key="FormatStringsDouble1" Type="{x:Type System:String}">
+            <System:String>f2</System:String>
+            <System:String>f4</System:String>
+        </x:Array>
+    </FrameworkElement.Resources>
+    <Grid Name="CentersUserControlMainGrid">
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <Border BorderThickness="1" Margin="-1,-1,0,0" BorderBrush="{DynamicResource BaseBackgroundThemeBrush}"
+                Height="86"/>
+                <CustomCtrlLib:ListBox Background="{StaticResource Dark1BaseBackgroundThemeBrush}" Height="50"
+                                ItemsSource="{Binding Path=ShapeViewDP.DrawShape.ShapeElements, ElementName=UserControl}"
+                                Width="{Binding Path=ShapeViewDP.DrawShape.ShapeLength, ElementName=UserControl}">
+                    <ItemsControl.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListBoxItem}">
+                            <Setter Property="UIElement.Focusable" Value="false"/>
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <Canvas Margin="7,1,0,0"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                </CustomCtrlLib:ListBox>
+            </Grid>
+            <StackPanel Name="Measurement" Orientation="Horizontal">
+                <CustomCtrlLib:ComboBox SelectionChanged="CentersMeasuringTypeChanged" Name="MeasuringTypeCB"
+                                 Background="{StaticResource Dark1BaseBackgroundThemeBrush}" BorderThickness="1"
+                                 HorizontalAlignment="Left" VerticalAlignment="Top" Width="109" Height="72" DropDownSymbol=""
+                                 SelectedValue="{Binding CentersView.MeasuringType, Mode=TwoWay}"
+                                 ItemsSource="{Binding Source={StaticResource dataFromEMeasuringType}}"
+                                 Margin="{Binding Path=UCPar.MTComboBoxMargin, ElementName=UserControl}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <CustomCtrlLib:Image Height="60" Margin="4,0,0,0" HorizontalAlignment="Left" Stretch="None"
+                                    SourceFileName="{Binding Converter={StaticResource converterEMeasuringTypeToImage}}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                    <ItemsControl.ItemContainerStyle>
+                        <Style TargetType="{x:Type ComboBoxItem}">
+                            <Setter Property="Control.BorderBrush" Value="#204653"/>
+                            <Setter Property="Control.BorderThickness" Value="1"/>
+                            <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                            <Setter Property="FrameworkElement.Margin" Value="0,-1,0,0"/>
+                            <Setter Property="FrameworkElement.Width" Value="109"/>
+                            <Setter Property="FrameworkElement.Height" Value="72"/>
+                            <Style.Triggers>
+                                <Trigger Property="ListBoxItem.IsSelected" Value="true">
+                                    <Setter Property="FrameworkElement.Width" Value="0"/>
+                                    <Setter Property="FrameworkElement.Height" Value="0"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+                </CustomCtrlLib:ComboBox>
+            </StackPanel>
+            <Grid>
+                <Border BorderThickness="1" Margin="-1,-1,0,0" BorderBrush="{DynamicResource BaseBackgroundThemeBrush}"
+                Height="360"/>
+                <StackPanel Name="Lengts" Orientation="Horizontal">
+                    <StackPanel Name="Lengths" Orientation="Vertical">
+                        <StackPanel Name="TextBoxLength1"
+                        Visibility="{Binding Path=UCPar.TextBox1VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.TextBoxesHeight, ElementName=UserControl}"
+                                      Text="{Binding CentersView.Length1, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB1Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB1Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.CentersTextBoxColorGridHeight, ElementName=UserControl}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                        <StackPanel Name="TextBoxLength2"
+                        Visibility="{Binding Path=UCPar.TextBox2VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.CentersTextBoxBaseHeight, ElementName=UserControl}"
+                                      Text="{Binding CentersView.Length2, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB2Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB2Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.CentersTextBoxColorGridHeight, ElementName=UserControl}"/>
+                                <Grid Margin="0,0,0,0" Background="{Binding Path=UCPar.TB2Grid2Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB2Grid2Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.CentersTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.TB2Grid2Ena, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                        <StackPanel Name="TextBoxLength3"
+                        Visibility="{Binding Path=UCPar.TextBox3VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.CentersTextBoxBaseHeight, ElementName=UserControl}"
+                                      Text="{Binding CentersView.Length3, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB3Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB3Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.CentersTextBoxColorGridHeight, ElementName=UserControl}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB3Grid2Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB3Grid2Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.CentersTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna3, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,0,0" Background="{Binding Path=UCPar.TB3Grid3Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB3Grid3Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.CentersTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna3, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                        <StackPanel Name="TextBoxLength4"
+                        Visibility="{Binding Path=UCPar.TextBox4VisuEna, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}">
+                            <CustomCtrlLib:TextBox Margin="-1,0,0,0" Background="{StaticResource Dark1BaseBackgroundThemeBrush}" TextAlignment="Right"
+                                      InputScope="Number" Width="{Binding Path=UCPar.TextBoxesWidth, ElementName=UserControl}"
+                                      Height="{Binding Path=UCPar.CentersTextBoxBaseHeight, ElementName=UserControl}"
+                                      Text="{Binding CentersView.Length4, Converter={StaticResource converterDoubleToString}, ConverterParameter={StaticResource FormatStringsDouble1}}">
+                            </CustomCtrlLib:TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB4Grid1Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB4Grid1Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.CentersTextBoxColorGridHeight, ElementName=UserControl}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB4Grid2Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB4Grid2Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.CentersTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna4, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,1,0" Background="{Binding Path=UCPar.TB4Grid3Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB4Grid3Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.CentersTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna4, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                                <Grid Margin="0,0,0,0" Background="{Binding Path=UCPar.TB4Grid4Color, ElementName=UserControl}"
+                      Width="{Binding Path=UCPar.TB4Grid4Width, ElementName=UserControl}"
+                      Height="{Binding Path=UCPar.CentersTextBoxColorGridHeight, ElementName=UserControl}"
+                      Visibility="{Binding Path=UCPar.RestGridEna4, ElementName=UserControl, Converter={StaticResource BoolToVisibility}, ConverterParameter=false}"/>
+                            </StackPanel>
+                            <Grid Height="1" Background="#FFDE3E19"
+                    Width="{Binding Path=UCPar.SimetricLineWidth, ElementName=UserControl}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>
